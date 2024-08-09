@@ -13,8 +13,8 @@
         <mxCell id="l8iPG7opFxImv_56KtvK-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l8iPG7opFxImv_56KtvK-7" target="l8iPG7opFxImv_56KtvK-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-7" value="2024" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="370" width="120" height="80" as="geometry" />
+        <mxCell id="l8iPG7opFxImv_56KtvK-7" value="2024.01-2024.06" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l8iPG7opFxImv_56KtvK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l8iPG7opFxImv_56KtvK-8" target="l8iPG7opFxImv_56KtvK-21">
           <mxGeometry relative="1" as="geometry" />
@@ -41,13 +41,22 @@
           <mxGeometry x="-10" y="500" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="l8iPG7opFxImv_56KtvK-19" value="&lt;div&gt;BOLAA&lt;/div&gt;&lt;div&gt;AUCARENA&lt;/div&gt;&lt;div&gt;AutoAgents&lt;/div&gt;An Empirical Study on Werewolf" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="230" width="280" height="80" as="geometry" />
+          <mxGeometry x="260" y="230" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l8iPG7opFxImv_56KtvK-21" value="metaAgents&lt;div&gt;waragent&lt;/div&gt;&lt;div&gt;CompetAI&lt;/div&gt;&lt;div&gt;Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="500" width="380.63" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-24" value="WWQA" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="210" width="120" height="80" as="geometry" />
+        <mxCell id="l8iPG7opFxImv_56KtvK-24" value="WWQA&lt;div&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;DcSjdliR5oEaGIxts5Yc3ZY1n5b&quot;&gt;&lt;div class=&quot;old-record-id-DcSjdliR5oEaGIxts5Yc3ZY1n5b&quot;&gt;SoMoSiMu-Bench&lt;/div&gt;&lt;div class=&quot;old-record-id-DcSjdliR5oEaGIxts5Yc3ZY1n5b&quot;&gt;iAgents&lt;/div&gt;&lt;div class=&quot;old-record-id-DcSjdliR5oEaGIxts5Yc3ZY1n5b&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Grande&amp;quot;, Helvetica, Arial, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;MacNet&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;DcSjdliR5oEaGIxts5Yc3ZY1n5b&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;SoMoSiMu-Bench&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+e&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7262182457712328707&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;36a4a670-be81-4b70-bbec-034e8ae970f0&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:1,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:0,&amp;quot;end&amp;quot;:14},&amp;quot;recordId&amp;quot;:&amp;quot;DcSjdliR5oEaGIxts5Yc3ZY1n5b&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fEuQ_8yBf_bNEdPJCn_F-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fEuQ_8yBf_bNEdPJCn_F-1" target="fEuQ_8yBf_bNEdPJCn_F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fEuQ_8yBf_bNEdPJCn_F-1" value="2024.07-" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fEuQ_8yBf_bNEdPJCn_F-2" value="&lt;div&gt;CTC&lt;/div&gt;&lt;div&gt;Internet of Agents&lt;/div&gt;MAO" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="530" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
