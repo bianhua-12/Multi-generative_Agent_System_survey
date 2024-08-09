@@ -7,7 +7,7 @@
         <mxCell id="l8iPG7opFxImv_56KtvK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l8iPG7opFxImv_56KtvK-6" target="l8iPG7opFxImv_56KtvK-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-6" value="2023.04" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="l8iPG7opFxImv_56KtvK-6" value="&lt;font&gt;2023.04&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#212529;fontColor=#f8f9fa;" vertex="1" parent="1">
           <mxGeometry x="100" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l8iPG7opFxImv_56KtvK-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l8iPG7opFxImv_56KtvK-7" target="l8iPG7opFxImv_56KtvK-24">
@@ -25,22 +25,22 @@
         <mxCell id="l8iPG7opFxImv_56KtvK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l8iPG7opFxImv_56KtvK-9" target="l8iPG7opFxImv_56KtvK-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-9" value="2023.08" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="l8iPG7opFxImv_56KtvK-9" value="2023.08" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#a61e4d;fontColor=#fff0f6;" vertex="1" parent="1">
           <mxGeometry x="340" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l8iPG7opFxImv_56KtvK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l8iPG7opFxImv_56KtvK-10" target="l8iPG7opFxImv_56KtvK-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-10" value="2023.06" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="l8iPG7opFxImv_56KtvK-10" value="2023.06" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#c92a2a;fontColor=#fff5f5;" vertex="1" parent="1">
           <mxGeometry x="220" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-13" value="generative agent" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l8iPG7opFxImv_56KtvK-13" value="generative agent" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#495057;fontColor=#f8f9fa;" vertex="1" parent="1">
           <mxGeometry x="85" y="210" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-15" value="recagent&lt;div&gt;ChatDev&lt;/div&gt;&lt;div&gt;SPP&lt;br&gt;&lt;/div&gt;&lt;div&gt;Epidemic Modeling with Generative Agents&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l8iPG7opFxImv_56KtvK-15" value="recagent&lt;div&gt;ChatDev&lt;/div&gt;&lt;div&gt;SPP&lt;br&gt;&lt;/div&gt;&lt;div&gt;Epidemic Modeling with Generative Agents&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f03e3e;fontColor=#fff5f5;" vertex="1" parent="1">
           <mxGeometry x="-10" y="500" width="360" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="l8iPG7opFxImv_56KtvK-19" value="&lt;div&gt;BOLAA&lt;/div&gt;&lt;div&gt;AUCARENA&lt;/div&gt;&lt;div&gt;AutoAgents&lt;/div&gt;An Empirical Study on Werewolf" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l8iPG7opFxImv_56KtvK-19" value="&lt;div&gt;BOLAA&lt;/div&gt;&lt;div&gt;AUCARENA&lt;/div&gt;&lt;div&gt;AutoAgents&lt;/div&gt;An Empirical Study on Werewolf" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d6336c;fontColor=#fff0f6;" vertex="1" parent="1">
           <mxGeometry x="260" y="230" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="l8iPG7opFxImv_56KtvK-21" value="metaAgents&lt;div&gt;waragent&lt;/div&gt;&lt;div&gt;CompetAI&lt;/div&gt;&lt;div&gt;Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
