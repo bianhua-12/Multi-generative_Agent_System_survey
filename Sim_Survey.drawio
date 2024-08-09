@@ -223,16 +223,16 @@
         <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-4" value="MGAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-5" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-5" value="evaluating" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-7" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-7" value="just simulation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-9" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-9" value="training" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-11" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yiIDUlHLB8wm-Z8Ac_ZY-11" value="collaborating" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
