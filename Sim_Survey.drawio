@@ -294,7 +294,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="McvS8z7jFdowBOinVMnQ" name="Application_framework">
-    <mxGraphModel dx="3313" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3728" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,8 +359,11 @@
         <mxCell id="9sg4p85OisNCmBf_pMbP-53" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" source="9sg4p85OisNCmBf_pMbP-9" target="9sg4p85OisNCmBf_pMbP-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="AV6NjrU2Q2XEvDoqs4cz-4" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9sg4p85OisNCmBf_pMbP-9" target="AV6NjrU2Q2XEvDoqs4cz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9sg4p85OisNCmBf_pMbP-9" value="Training" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=22;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-463" y="1790" width="120" height="40" as="geometry" />
+          <mxGeometry x="-463" y="1830" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9sg4p85OisNCmBf_pMbP-10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" parent="1" source="9sg4p85OisNCmBf_pMbP-4" target="9sg4p85OisNCmBf_pMbP-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -460,7 +463,7 @@
           <mxGeometry x="480" y="1080" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9sg4p85OisNCmBf_pMbP-52" value="&lt;div style=&quot;color: rgb(31, 35, 41);&quot;&gt;&lt;p&gt;Language agents with reinforcement learning for strategic play in the werewolf game&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-1328" y="1770" width="700" height="80" as="geometry" />
+          <mxGeometry x="-1298" y="1770" width="700" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9sg4p85OisNCmBf_pMbP-54" value="&lt;div style=&quot;color: rgb(31, 35, 41);&quot;&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Language agents with reinforcement learning for strategic play in the werewolf game&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="480" y="1180" width="700" height="80" as="geometry" />
@@ -482,6 +485,9 @@
         </mxCell>
         <mxCell id="9sg4p85OisNCmBf_pMbP-68" value="&lt;div style=&quot;color: rgb(31, 35, 41);&quot;&gt;&lt;p&gt;Unleashing cognitive synergy in large language models: A task-solving agent through multi-persona self-collaboration&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="480" y="1770" width="960" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AV6NjrU2Q2XEvDoqs4cz-3" value="&lt;div style=&quot;color: rgb(31, 35, 41);&quot;&gt;&lt;p&gt;Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1348" y="1910" width="750" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
