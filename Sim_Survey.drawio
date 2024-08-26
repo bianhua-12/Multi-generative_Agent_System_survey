@@ -603,10 +603,10 @@
           <mxGeometry x="510" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-46" value="cost of the system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-47.5" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-48" value="simulation performance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
