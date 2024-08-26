@@ -493,7 +493,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xAgnZ1HNjMAHnxx970jh" name="Evaluation_framework">
-    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -503,23 +503,41 @@
         <mxCell id="qGeWk-cW94tQg_JrH2xR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-1" target="qGeWk-cW94tQg_JrH2xR-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-1" value="MAGS Evaluation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-1" value="MAGS Evaluation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="310" y="505" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-6" value="Individual-level Simulation Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-6" value="Individual-level Simulation Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="300" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-7" target="qGeWk-cW94tQg_JrH2xR-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-7" value="Population-level Simulation Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-7" value="Population-level Simulation Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="310" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-13" value="subjective methods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="115" y="397.5" width="157.5" height="105" as="geometry" />
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-13" target="qGeWk-cW94tQg_JrH2xR-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-16" value="Objective methods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="470" y="400" width="150" height="100" as="geometry" />
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-30" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-13" target="qGeWk-cW94tQg_JrH2xR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-13" target="qGeWk-cW94tQg_JrH2xR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-34" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-13" target="qGeWk-cW94tQg_JrH2xR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-13" value="Objective methods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="90" y="387.5" width="183.75" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-16" target="qGeWk-cW94tQg_JrH2xR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-16" target="qGeWk-cW94tQg_JrH2xR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-16" value="subjective methods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-17" value="Consistency" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="460" y="600" width="120" height="80" as="geometry" />
@@ -541,6 +559,24 @@
             <mxPoint x="300" y="449.5" as="sourcePoint" />
             <mxPoint x="263" y="449.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-26" value="Realworld simulation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-29" value="&amp;nbsp;Software testing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-31" value="Multi-task evaluation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-33" value="&amp;nbsp;Social evaluation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-36" value="QA dataset&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=14;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-38" value="human annotation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
