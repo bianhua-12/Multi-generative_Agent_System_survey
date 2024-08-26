@@ -126,7 +126,7 @@
         <mxCell id="S9ZsQuf8eR5KpRNFXTV7-17" value="&lt;b&gt;Planning&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fab005;" parent="1" vertex="1">
           <mxGeometry x="470" y="360" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S9ZsQuf8eR5KpRNFXTV7-18" value="&lt;b&gt;Action&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CFBAA5;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="S9ZsQuf8eR5KpRNFXTV7-18" value="&lt;b&gt;Action&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="660" y="360" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S9ZsQuf8eR5KpRNFXTV7-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
