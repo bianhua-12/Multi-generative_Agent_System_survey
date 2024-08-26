@@ -561,7 +561,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-26" value="Realworld simulation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="418.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-29" value="&amp;nbsp;Software testing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
