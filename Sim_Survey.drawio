@@ -514,26 +514,32 @@
         <mxCell id="qGeWk-cW94tQg_JrH2xR-6" value="Individual-level Simulation Evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="515" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-7" target="qGeWk-cW94tQg_JrH2xR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-7" value="Population-level Simulation Evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="515" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-13" value="subjective methods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="400" width="157.5" height="105" as="geometry" />
+          <mxGeometry x="606.25" y="450" width="157.5" height="105" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-16" value="Objective methods" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="590" width="150" height="100" as="geometry" />
+          <mxGeometry x="613.75" y="540" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-17" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="495" width="120" height="80" as="geometry" />
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-17" value="Consistency" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qGeWk-cW94tQg_JrH2xR-18" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="570" width="120" height="80" as="geometry" />
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-18" value="Capacity" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="570" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qGeWk-cW94tQg_JrH2xR-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-6" target="qGeWk-cW94tQg_JrH2xR-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="590" as="sourcePoint" />
             <mxPoint x="838.6799999999998" y="723.6400000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qGeWk-cW94tQg_JrH2xR-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;" edge="1" parent="1" source="qGeWk-cW94tQg_JrH2xR-7" target="qGeWk-cW94tQg_JrH2xR-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
