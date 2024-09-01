@@ -294,7 +294,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="McvS8z7jFdowBOinVMnQ" name="Application_framework">
-    <mxGraphModel dx="3728" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3216" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -537,14 +537,22 @@
             <mxPoint x="747" y="1787" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CxTbt34T9q9WxilF0fM8-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;" edge="1" parent="1" source="9sg4p85OisNCmBf_pMbP-7" target="CxTbt34T9q9WxilF0fM8-3">
+        <mxCell id="CxTbt34T9q9WxilF0fM8-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" source="9sg4p85OisNCmBf_pMbP-7" target="CxTbt34T9q9WxilF0fM8-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-540" y="1480" as="sourcePoint" />
             <mxPoint x="-580" y="1743" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CxTbt34T9q9WxilF0fM8-3" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f2329&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/font&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve; font-size: 18px;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="CxTbt34T9q9WxilF0fM8-3" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f2329&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/font&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve; font-size: 18px;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1198" y="1706.5" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hwpSIK-OJhao5McO9kH9-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="hwpSIK-OJhao5McO9kH9-2" source="9sg4p85OisNCmBf_pMbP-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-533" y="1406.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwpSIK-OJhao5McO9kH9-2" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1198" y="960" width="600" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
