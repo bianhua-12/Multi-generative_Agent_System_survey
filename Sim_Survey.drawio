@@ -554,6 +554,14 @@
         <mxCell id="hwpSIK-OJhao5McO9kH9-2" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-1198" y="960" width="600" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hwpSIK-OJhao5McO9kH9-3" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;&lt;div data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;AgentCourt: Simulating Court with Adversarial Evolvable Lawyer Agents&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1198" y="900" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hwpSIK-OJhao5McO9kH9-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="hwpSIK-OJhao5McO9kH9-3" parent="1" source="9sg4p85OisNCmBf_pMbP-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-545" y="1443" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
