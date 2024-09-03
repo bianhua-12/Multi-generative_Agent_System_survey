@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8" pages="5">
   <diagram id="sUKqZVcICzjHO2pk_rUy" name="time_line">
     <mxGraphModel dx="830" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="McvS8z7jFdowBOinVMnQ" name="Application_framework">
-    <mxGraphModel dx="3216" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3728" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -487,7 +487,7 @@
           <mxGeometry x="480" y="2070" width="960" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AV6NjrU2Q2XEvDoqs4cz-3" value="&lt;div style=&quot;color: rgb(31, 35, 41);&quot;&gt;&lt;p&gt;Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-1348" y="1910" width="750" height="80" as="geometry" />
+          <mxGeometry x="-1348" y="1870" width="750" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JQs2IqV76rTLkfSHauBC-3" value="MAO" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="757" y="1450" width="70" height="40" as="geometry" />
@@ -546,21 +546,33 @@
         <mxCell id="CxTbt34T9q9WxilF0fM8-3" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f2329&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/font&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve; font-size: 18px;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fontSize=18;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1198" y="1706.5" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hwpSIK-OJhao5McO9kH9-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="hwpSIK-OJhao5McO9kH9-2" source="9sg4p85OisNCmBf_pMbP-7">
+        <mxCell id="hwpSIK-OJhao5McO9kH9-1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9sg4p85OisNCmBf_pMbP-7" target="hwpSIK-OJhao5McO9kH9-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-533" y="1406.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hwpSIK-OJhao5McO9kH9-2" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="hwpSIK-OJhao5McO9kH9-2" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1198" y="960" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hwpSIK-OJhao5McO9kH9-3" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;&lt;div data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;AgentCourt: Simulating Court with Adversarial Evolvable Lawyer Agents&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="hwpSIK-OJhao5McO9kH9-3" value="&lt;div&gt;&lt;div style=&quot;white-space-collapse: preserve;&quot; data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;&lt;div data-line=&quot;true&quot; data-line-index=&quot;0&quot; data-zone-id=&quot;0&quot;&gt;AgentCourt: Simulating Court with Adversarial Evolvable Lawyer Agents&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1198" y="900" width="600" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hwpSIK-OJhao5McO9kH9-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="hwpSIK-OJhao5McO9kH9-3" parent="1" source="9sg4p85OisNCmBf_pMbP-7">
+        <mxCell id="hwpSIK-OJhao5McO9kH9-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fillColor=#eeeeee;strokeColor=#36393d;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9sg4p85OisNCmBf_pMbP-7" target="hwpSIK-OJhao5McO9kH9-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-545" y="1443" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hVyvar-1eii62r3SfiZ2-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="hVyvar-1eii62r3SfiZ2-2" parent="1" source="9sg4p85OisNCmBf_pMbP-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-463" y="1950" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="1930" />
+              <mxPoint x="-470" y="1860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVyvar-1eii62r3SfiZ2-2" value="&lt;div style=&quot;color: rgb(31, 35, 41);&quot;&gt;&lt;p&gt;TRAINING SOCIALLY ALIGNED LANGUAGE MODELS&amp;nbsp; ON SIMULATED SOCIAL INTERACTIONS&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=18;rounded=1;arcSize=50;strokeWidth=1;autosize=1;spacing=4;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-1428" y="1970" width="830" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
