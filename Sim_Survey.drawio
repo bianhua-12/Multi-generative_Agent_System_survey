@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iToMLYyKvSiXM00h0DDk" name="Construction_simulation">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -314,7 +314,7 @@
         <mxCell id="qj3kvFtB3JgKZJjmv8EO-44" value="user set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="305" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="s8Y__HL1MszrIdgYQWKy-23" value="Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="s8Y__HL1MszrIdgYQWKy-23" value="RULE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="397.65" y="270" width="302.35" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qj3kvFtB3JgKZJjmv8EO-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startArrow=block;" parent="1" edge="1">
