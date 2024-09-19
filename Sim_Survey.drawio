@@ -758,6 +758,24 @@
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-2" value="&lt;div&gt;real world&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="470" y="300" width="240" height="490" as="geometry" />
         </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-3" value="RL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-4" value="Social Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-6" value="Game Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-7" value="Social media" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-8" value="Embodied AI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-9" value="Hospital Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
