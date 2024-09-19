@@ -745,21 +745,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9h-um1gThtcGV3pLgLey" name="Application">
-    <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2257" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pUcWcG2o5uLzywSFAeDN-1" value="MGAS for Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-1" value="virtual world" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="70" y="300" width="240" height="490" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-2" value="&lt;div&gt;real world&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="470" y="300" width="240" height="490" as="geometry" />
-        </mxCell>
-        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-3" value="RL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-4" value="Social Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="420" width="120" height="60" as="geometry" />
@@ -770,16 +767,13 @@
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-7" value="Social media" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-8" value="Embodied AI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-9" value="Hospital Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-11" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="300" width="240" height="490" as="geometry" />
+          <mxGeometry x="-320" y="300" width="230" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-12" value="Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-12" value="Auction Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-13" value="Real Hospital" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -789,7 +783,31 @@
           <mxGeometry x="530" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-15" value="MGAS for Reward" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="-60" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-18" value="LLaMa3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-19" value="Real Auction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-20" value="GPT4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-21" value="GPT4o" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.548;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="560" as="sourcePoint" />
+            <mxPoint x="-90" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="560" as="sourcePoint" />
+            <mxPoint x="470" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
