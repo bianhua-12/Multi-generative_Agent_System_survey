@@ -770,7 +770,7 @@
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-9" value="Hospital Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-11" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-11" value="LLMs" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-320" y="300" width="230" height="490" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-12" value="Auction Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
