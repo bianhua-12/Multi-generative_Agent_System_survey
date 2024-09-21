@@ -815,6 +815,12 @@
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-25" value="Real ..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="700" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-26" value="Robot Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-27" value="Real Robot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
