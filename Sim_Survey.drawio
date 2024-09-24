@@ -761,7 +761,7 @@
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-7" value="Social media" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="405" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-11" value="fundition model" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-11" value="foundation model" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-320" y="300" width="230" height="480" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-13" value="Real Hospital" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
