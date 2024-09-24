@@ -281,20 +281,17 @@
         <mxCell id="s8Y__HL1MszrIdgYQWKy-2" value="Environment" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=none;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;glass=0;gradientColor=#C7B39F;" parent="1" vertex="1">
           <mxGeometry x="330" y="230" width="410" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="qj3kvFtB3JgKZJjmv8EO-33" value="INFORMATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="400" y="460" width="296" height="110" as="geometry" />
+        <mxCell id="qj3kvFtB3JgKZJjmv8EO-33" value="information management system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="387" y="460" width="323" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qj3kvFtB3JgKZJjmv8EO-32" value="" style="group;fillColor=none;fillStyle=hatch;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="440" y="480" width="240" height="90" as="geometry" />
+          <mxGeometry x="428.5" y="480" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qj3kvFtB3JgKZJjmv8EO-26" value="Information Retrival" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;" parent="qj3kvFtB3JgKZJjmv8EO-32" vertex="1">
           <mxGeometry y="30" width="240.00000000000003" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qj3kvFtB3JgKZJjmv8EO-29" value="Information retrival" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;" parent="qj3kvFtB3JgKZJjmv8EO-32" vertex="1">
+        <mxCell id="qj3kvFtB3JgKZJjmv8EO-29" value="Information Storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;" parent="qj3kvFtB3JgKZJjmv8EO-32" vertex="1">
           <mxGeometry y="60" width="240.00000000000003" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qj3kvFtB3JgKZJjmv8EO-30" value="Information Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;" parent="qj3kvFtB3JgKZJjmv8EO-32" vertex="1">
-          <mxGeometry width="240.00000000000003" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s8Y__HL1MszrIdgYQWKy-24" value="Intervention Interface" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="397.64882352941186" y="400" width="162.3529411764706" height="60" as="geometry" />
