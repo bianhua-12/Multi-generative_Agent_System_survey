@@ -759,22 +759,22 @@
           <mxGeometry x="470" y="300" width="240" height="480" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-7" value="Social media" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="405" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-11" value="fundition model" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-320" y="300" width="230" height="480" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-13" value="Real Hospital" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="545" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-14" value="Real Game" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="475" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-15" value="Reward" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-19" value="Real Auction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.548;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -789,10 +789,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-25" value="Real ..." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="685" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EU1jOuFJDCTV4l-XQ2jJ-27" value="Real Robot" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="335" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dMNQUGmvKXhmzme-vrgn-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
