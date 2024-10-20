@@ -875,9 +875,6 @@
           <mxGeometry x="320" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AoIuxufh_nNHkxxTpbi0-16" value="communication" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="600" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AoIuxufh_nNHkxxTpbi0-17" value="collaboration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AoIuxufh_nNHkxxTpbi0-18" value="reasoning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -938,7 +935,7 @@
           <mxGeometry x="80" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AoIuxufh_nNHkxxTpbi0-29" value="Self-Evolution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
