@@ -992,11 +992,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TFkU99HVR8jcALYZ7Qib" name="construction">
-    <mxGraphModel dx="943" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="El-XdhgO6gJAG0Q0YNhJ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="El-XdhgO6gJAG0Q0YNhJ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="540" height="370" as="geometry" />
         </mxCell>
         <mxCell id="El-XdhgO6gJAG0Q0YNhJ-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;MGAS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
