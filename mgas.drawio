@@ -919,7 +919,7 @@
         <mxCell id="AoIuxufh_nNHkxxTpbi0-2" value="MGAS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="-200" y="540" width="920" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="AoIuxufh_nNHkxxTpbi0-8" value="Reward" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="AoIuxufh_nNHkxxTpbi0-8" value="Evaluation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="745" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AoIuxufh_nNHkxxTpbi0-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -991,8 +991,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="TFkU99HVR8jcALYZ7Qib" name="第 8 页">
-    <mxGraphModel dx="955" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="TFkU99HVR8jcALYZ7Qib" name="construction">
+    <mxGraphModel dx="1885" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
