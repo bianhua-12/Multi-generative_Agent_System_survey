@@ -1078,17 +1078,6 @@
             <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vUx5bti8A2s26Ro9nmCE-45" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vUx5bti8A2s26Ro9nmCE-13" target="vUx5bti8A2s26Ro9nmCE-11" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="584" y="900" as="sourcePoint" />
-            <mxPoint x="519" y="900" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vUx5bti8A2s26Ro9nmCE-46" value="Interrupt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="vUx5bti8A2s26Ro9nmCE-45" vertex="1" connectable="0">
-          <mxGeometry x="-0.1663" y="-2" relative="1" as="geometry">
-            <mxPoint x="23" y="-5" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vUx5bti8A2s26Ro9nmCE-48" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="250" y="747" width="60" height="45" as="geometry" />
         </mxCell>
