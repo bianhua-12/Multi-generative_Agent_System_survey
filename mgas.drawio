@@ -1014,7 +1014,7 @@
         <mxCell id="vUx5bti8A2s26Ro9nmCE-8" value="Communication rule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="vUx5bti8A2s26Ro9nmCE-6" vertex="1">
           <mxGeometry x="15" y="30" width="125" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="vUx5bti8A2s26Ro9nmCE-9" value="action rule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="vUx5bti8A2s26Ro9nmCE-6" vertex="1">
+        <mxCell id="vUx5bti8A2s26Ro9nmCE-9" value="Action rule" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="vUx5bti8A2s26Ro9nmCE-6" vertex="1">
           <mxGeometry x="15" y="90" width="125" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="vUx5bti8A2s26Ro9nmCE-10" value="Rules" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="vUx5bti8A2s26Ro9nmCE-6" vertex="1">
@@ -1023,7 +1023,7 @@
         <mxCell id="vUx5bti8A2s26Ro9nmCE-11" value="Tools" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="574" y="660" width="80" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="vUx5bti8A2s26Ro9nmCE-12" value="information management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+        <mxCell id="vUx5bti8A2s26Ro9nmCE-12" value="Information" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="359" y="860" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vUx5bti8A2s26Ro9nmCE-13" value="intervention interface" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
