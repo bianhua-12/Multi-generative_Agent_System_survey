@@ -1002,8 +1002,8 @@
         <mxCell id="El-XdhgO6gJAG0Q0YNhJ-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;MGAS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="400" y="150" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="INPvynSkCYsMm3ckttSu-83" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Generative Agents&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="280" y="400" width="95" height="20" as="geometry" />
+        <mxCell id="INPvynSkCYsMm3ckttSu-83" value="&lt;b&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Generative Agents&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="282.5" y="380" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8Rz3LvoMfG6xmpRgb-Gx-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="420" y="200" width="290" height="300" as="geometry" />
