@@ -976,7 +976,7 @@
         <mxCell id="AoIuxufh_nNHkxxTpbi0-26" value="alignment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="855" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AoIuxufh_nNHkxxTpbi0-3" value="&lt;div&gt;real world&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+        <mxCell id="AoIuxufh_nNHkxxTpbi0-3" value="&lt;div&gt;real world scenario&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="-200" y="290" width="920" height="165" as="geometry" />
         </mxCell>
         <mxCell id="AoIuxufh_nNHkxxTpbi0-1" value="Simulation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -985,7 +985,7 @@
         <mxCell id="AoIuxufh_nNHkxxTpbi0-29" value="Self-Evolution" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AvmP7QX_I7GXsqJlOJsG-1" value="Interaction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AvmP7QX_I7GXsqJlOJsG-1" value="Interaction" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
