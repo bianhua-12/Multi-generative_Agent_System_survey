@@ -1225,7 +1225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
-    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1276,6 +1276,12 @@
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-45" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-46" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="373" y="-10" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-48" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="419" y="-10" width="40" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
