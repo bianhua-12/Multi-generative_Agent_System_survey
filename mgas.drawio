@@ -1265,6 +1265,18 @@
         <mxCell id="EdwhqosgibVuQvMjBlN3-33" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
           <mxGeometry x="385" y="325" width="58" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-34" value="evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=25;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-40" value="evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=-20;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-42" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-45" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
