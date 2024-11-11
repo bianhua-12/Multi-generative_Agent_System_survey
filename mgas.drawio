@@ -1225,7 +1225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
-    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1239,7 +1239,7 @@
           <mxGeometry x="354" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="129" y="820" width="721" height="230" as="geometry" />
+          <mxGeometry x="129" y="820" width="731" height="230" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdwhqosgibVuQvMjBlN3-9">
           <mxGeometry x="-35" y="-10" width="640" height="240" as="geometry" />
@@ -1259,8 +1259,8 @@
         <mxCell id="EdwhqosgibVuQvMjBlN3-2" value="action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EdwhqosgibVuQvMjBlN3-9">
           <mxGeometry x="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="EdwhqosgibVuQvMjBlN3-9">
-          <mxGeometry x="621" y="80" width="100" height="70" as="geometry" />
+        <mxCell id="EdwhqosgibVuQvMjBlN3-27" value="Model-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="EdwhqosgibVuQvMjBlN3-9">
+          <mxGeometry x="611" y="70" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
           <mxGeometry x="379" y="690" width="70" height="110" as="geometry" />
@@ -1277,9 +1277,6 @@
         <mxCell id="EdwhqosgibVuQvMjBlN3-17" value="environment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="226" y="505" width="376" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="734" y="550" width="100" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-22" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="482" y="250" width="120" height="80" as="geometry" />
         </mxCell>
@@ -1288,6 +1285,15 @@
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-24" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" vertex="1" parent="1">
           <mxGeometry x="374" y="110" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-25" value="agent-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-26" value="agent-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-28" value="Model-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="895" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
