@@ -1225,18 +1225,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
-    <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EdwhqosgibVuQvMjBlN3-14" value="generative agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="331" y="475" width="164" height="70" as="geometry" />
+          <mxGeometry x="331" y="395" width="164" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="378" y="560" width="70" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="379" y="350" width="70" height="100" as="geometry" />
+          <mxGeometry x="385" y="470" width="58" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-22" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="482" y="250" width="120" height="80" as="geometry" />
@@ -1248,22 +1245,25 @@
           <mxGeometry x="374" y="110" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-25" value="agent-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="519" y="470" width="120" height="80" as="geometry" />
+          <mxGeometry x="519" y="390" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-26" value="agent-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="189" y="470" width="120" height="80" as="geometry" />
+          <mxGeometry x="189" y="390" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-28" value="Model-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="-21" y="740" width="120" height="80" as="geometry" />
+          <mxGeometry x="153" y="553.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-30" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="692.5" width="586" height="175" as="geometry" />
+          <mxGeometry x="303" y="550" width="226" height="87.5" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-31" value="Model-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="729" y="735" width="120" height="80" as="geometry" />
+          <mxGeometry x="553" y="553.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-32" value="MGAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdwhqosgibVuQvMjBlN3-33" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="325" width="58" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
