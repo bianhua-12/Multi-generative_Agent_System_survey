@@ -1428,8 +1428,8 @@
         <mxCell id="skaffKzBVd656h6PqjQr-97" value="Muti-stage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="714.5" y="769.9999999999999" width="88" height="48.13" as="geometry" />
         </mxCell>
-        <mxCell id="skaffKzBVd656h6PqjQr-98" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="750" y="849.9999999999999" width="88" height="48.13" as="geometry" />
+        <mxCell id="skaffKzBVd656h6PqjQr-98" value="Speed Optimization" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="730" y="850" width="108" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-99" value="XXX Feature&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="750" y="926.5699999999999" width="88" height="48.13" as="geometry" />
