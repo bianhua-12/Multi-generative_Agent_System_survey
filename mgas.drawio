@@ -1283,6 +1283,24 @@
         <mxCell id="EdwhqosgibVuQvMjBlN3-26" value="agent-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" parent="D49UNp7rjsrRe8jHSAui-3" vertex="1">
           <mxGeometry width="120" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="jTGDW2xeW6OdJvFV12mb-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="602" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jTGDW2xeW6OdJvFV12mb-2" value="Conponent of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jTGDW2xeW6OdJvFV12mb-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="597" y="40" width="55" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jTGDW2xeW6OdJvFV12mb-5" value="level" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="38.75" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jTGDW2xeW6OdJvFV12mb-7" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="597" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jTGDW2xeW6OdJvFV12mb-8" value="Application" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="657" y="85" width="105" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
