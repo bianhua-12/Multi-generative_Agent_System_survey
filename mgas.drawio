@@ -1250,7 +1250,7 @@
         <mxCell id="EdwhqosgibVuQvMjBlN3-40" value="training" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="290" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-42" value="reasoning framework" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="EdwhqosgibVuQvMjBlN3-42" value="Reasoning Framework" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="602" y="250" width="198" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-45" value="Communication Optimization" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
