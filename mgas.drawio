@@ -1225,60 +1225,54 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
-    <mxGraphModel dx="2074" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EdwhqosgibVuQvMjBlN3-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="390.5" y="450" width="45" height="30" as="geometry" />
+          <mxGeometry x="390.5" y="400" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-22" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="EdwhqosgibVuQvMjBlN3-22" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="482" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-23" value="evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" parent="1" vertex="1">
           <mxGeometry x="220" y="250" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-24" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" parent="1" vertex="1">
+        <mxCell id="EdwhqosgibVuQvMjBlN3-24" value="Simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" parent="1" vertex="1">
           <mxGeometry x="374" y="110" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-32" value="MGAS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-34" value="evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=25;" parent="1" vertex="1">
-          <mxGeometry x="110" y="220" width="120" height="40" as="geometry" />
+        <mxCell id="EdwhqosgibVuQvMjBlN3-34" value="evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-40" value="evaluation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=-20;" parent="1" vertex="1">
-          <mxGeometry x="110" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="EdwhqosgibVuQvMjBlN3-40" value="training" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="290" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-42" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="250" width="120" height="40" as="geometry" />
+        <mxCell id="EdwhqosgibVuQvMjBlN3-42" value="reasoning framework" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="602" y="250" width="198" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-45" value="simulation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="290" width="120" height="40" as="geometry" />
+        <mxCell id="EdwhqosgibVuQvMjBlN3-45" value="Communication Optimization" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="602" y="290" width="198" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-46" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="373" y="-10" width="40" height="120" as="geometry" />
+        <mxCell id="D49UNp7rjsrRe8jHSAui-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="391.5" y="320" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EdwhqosgibVuQvMjBlN3-48" value="task solving" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="419" y="-10" width="40" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="D49UNp7rjsrRe8jHSAui-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="390.5" y="350" width="45" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="D49UNp7rjsrRe8jHSAui-2" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="172" y="497" width="483" height="55.5" as="geometry" />
+        <mxCell id="D49UNp7rjsrRe8jHSAui-2" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="172" y="480" width="483" height="55.5" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-28" value="Model-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" parent="D49UNp7rjsrRe8jHSAui-2" vertex="1">
-          <mxGeometry y="2.3785714285714286" width="111.46153846153847" height="50.74285714285714" as="geometry" />
+          <mxGeometry y="-47.621428571428574" width="111.46153846153847" height="50.74285714285714" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-30" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;" parent="D49UNp7rjsrRe8jHSAui-2" vertex="1">
-          <mxGeometry x="139.3269230769231" width="209.91923076923078" height="55.5" as="geometry" />
+          <mxGeometry x="139.3269230769231" y="-50" width="209.91923076923078" height="55.5" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-31" value="Model-level application" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=east;" parent="D49UNp7rjsrRe8jHSAui-2" vertex="1">
-          <mxGeometry x="371.53846153846155" y="2.3785714285714286" width="111.46153846153847" height="50.74285714285714" as="geometry" />
+          <mxGeometry x="371.53846153846155" y="-47.621428571428574" width="111.46153846153847" height="50.74285714285714" as="geometry" />
         </mxCell>
-        <mxCell id="D49UNp7rjsrRe8jHSAui-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="189" y="389" width="450" height="55" as="geometry" />
+        <mxCell id="D49UNp7rjsrRe8jHSAui-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="189" y="350" width="450" height="55" as="geometry" />
         </mxCell>
         <mxCell id="EdwhqosgibVuQvMjBlN3-14" value="generative agent" style="rounded=0;whiteSpace=wrap;html=1;" parent="D49UNp7rjsrRe8jHSAui-3" vertex="1">
           <mxGeometry x="142" y="3.4375" width="164" height="48.125" as="geometry" />
