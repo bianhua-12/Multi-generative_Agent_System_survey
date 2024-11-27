@@ -1426,8 +1426,8 @@
         <mxCell id="skaffKzBVd656h6PqjQr-112" value="Emotion" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-57.99999999999994" y="741.8699999999998" width="88" height="48.13" as="geometry" />
         </mxCell>
-        <mxCell id="skaffKzBVd656h6PqjQr-113" value="Supervised Fine-Tuning on MGAS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="-180" y="886.26" width="158" height="48.13" as="geometry" />
+        <mxCell id="skaffKzBVd656h6PqjQr-113" value="Fine-Tuning on MGAS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="886.26" width="128" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-121" value="&lt;div&gt;Synthesized Ddata&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-10" y="950" width="108" height="48.13" as="geometry" />
