@@ -1,0 +1,127 @@
+﻿title,type,paper,code,benchmark
+A survey on large language model based autonomous agents,survey,,,
+Reflexion: Language Agents with Verbal Reinforcement Learning,learning,https://arxiv.org/abs/2303.11366,https://github.com/noahshinn/reflexion,
+The rise and potential of large language model based agents: A survey,survey,,,
+"Describe, explain, plan and select: Interactive planning with large language models enables open-world multi-task agents",agent,,https://github.com/CraftJarvis/MC-Planner,
+Role play with large language models,persona,,none,
+Autogen: Enabling next-gen llm applications via multi-agent conversation framework,framework,,https://github.com/microsoft/autogen,
+AgentBench: Evaluating LLMs as Agents,llm evaluation,https://arxiv.org/abs/2308.03688,https://github.com/THUDM/AgentBench,AGENTBENCH(self)
+Communicative agents for software development,agent,,https://github.com/OpenBMB/ChatDev,
+ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate,llm evaluation,https://arxiv.org/abs/2308.07201,https://github.com/thunlp/ChatEval,ChatEval(self)
+Large language models as commonsense knowledge for large-scale task planning,agent,,https://github.com/1989Ryan/llm-mcts,
+Expel: Llm agents are experiential learners,learning,,none,
+Training socially aligned language models in simulated human society,learning,,https://github.com/agi-templar/Stable-Alignment,
+The alignment problem from a deep learning perspective,learning,,none,
+Fundamental limitations of alignment in large language models,learning,,none,
+Drive like a human: Rethinking autonomous driving with large language models,agent,,,
+Exploring human-like translation strategy with large language models,agent,,,
+Improving language model negotiation with self-play and in-context learning from ai feedback,learning,,,
+Cognitive architectures for language agents,"agent, framework",,,
+Evaluating and Inducing Personality in Pre-trained Language Models,"llm evaluation, persona",https://proceedings.neurips.cc/paper_files/paper/2023/hash/21f7b745f73ce0d1f9bcea7f40b1388e-Abstract-Conference.html,,
+Evaluating the moral beliefs encoded in llms,llm evaluation,,,
+Exploring large language models for communication games: An empirical study on werewolf,multi-agent competition,,none,
+Openagents: An open platform for language agents in the wild,agent,,,
+"Rolellm: Benchmarking, eliciting, and enhancing role-playing abilities of large language models","persona, llm evaluation",,,
+Ultrafeedback: Boosting language models with high-quality feedback,learning,,,
+Personallm: Investigating the ability of gpt-3.5 to express personality traits and gender differences,"persona, llm evaluation",,,
+Character-llm: A trainable agent for role-playing,"learning, persona",,,
+BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents,"multi-agent collaboration, framework",https://arxiv.org/abs/2308.05960,https://github.com/salesforce/BOLAA,WebShop
+Chatdb: Augmenting llms with databases as their symbolic memory,agent,,,
+Drive as you speak: Enabling human-like interaction with large language models in autonomous vehicles,agent,,,
+Auto-gpt for online decision making: Benchmarks and additional opinions,agent,,,
+Recmind: Large language model powered agent for recommendation,agent,,,
+Recagent: A novel simulation paradigm for recommender systems,multi-agent sim,,https://github.com/RUC-GSAI/YuLan-Rec,Movielens-1M
+S: Social-network Simulation System with Large Language Model-Empowered Agents,multi-agent sim,,none,Blog Authorship Corpus
+Metatool benchmark for large language models: Deciding whether to use tools and which to use,"llm evaluation, agent",,,
+Confucius: Iterative tool learning from introspection feedback by easy-to-difficult curriculum,"framework, agent",,,
+MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation,llm evaluation,https://arxiv.org/abs/2310.03302,https://github.com/snap-stanford/MLAgentBench,MLAgentBench (self)
+Appagent: Multimodal agents as smartphone users,agent,,https://github.com/mnotgod96/AppAgent,
+Jarvis-1: Open-world multi-task agents with memory-augmented multimodal language modelsv,agent,,,
+Metaagents: Simulating interactions of human behaviors for llm-based task-oriented coordination via collaborative generative agents,multi-agent collaboration,https://arxiv.org/abs/2310.06500,none,
+Improving Knowledge Extraction from LLMs for Task Learning through Agent Analysis,"agent, framework",,,
+Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game,"learning, multi-agent competition",https://arxiv.org/abs/2310.18940,none,
+Reviewergpt? an exploratory study on using large language models for paper reviewing,agent,,,
+Igniting Language Intelligence: The Hitchhiker's Guide From Chain-of-Thought Reasoning to Language Agents,agent,,,
+URBAN GENERATIVE INTELLIGENCE (UGI): A FOUNDATIONAL PLATFORM FOR AGENTS IN EMBODIED CITY ENVIRONMENT,"multi-agent sim, agent",https://arxiv.org/abs/2312.11813,none,
+AgentSims: An Open-Source Sandbox for Large Language Model Evaluation,"multi-agent sim, llm evaluation",https://arxiv.org/abs/2308.04026,none,
+Put Your Money Where Your Mouth Is: Evaluating Strategic Planning and Execution of LLM Agents in an Auction Arena,"multi-agent sim, multi-agent competition, llm evaluation",https://arxiv.org/abs/2310.05746,https://github.com/jiangjiechen/auction-arena,
+Exploring Model Kinship for Merging Large Language Models,learning,https://arxiv.org/abs/2410.12613,https://github.com/zjunlp/ModelKinship,
+PEAR: A Robust and Flexible Automation Framework for Ptychography Enabled by Multiple Large Language Model Agents,"natural science, multi-agent collaboration",https://arxiv.org/abs/2410.09034,none,
+Randomized Exploration in Cooperative Multi-Agent Reinforcement Learning,MARL,https://arxiv.org/abs/2404.10728,,N-chain， Super Mario Bros，Thermal Control of Building Energy Systems
+Cooperate or Collapse: Emergence of Sustainability in a Society of LLM Agents,multi-agent sim,https://arxiv.org/abs/2404.16698,https://github.com/giorgiopiatti/govsim,GOVSIM
+Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration,multi-agent collaboration,https://arxiv.org/abs/2406.01014,https://github.com/x-plug/mobileagent,none
+Autonomous Agent for Collaborative Task under Information Asymmetry,"multi-agent collaboration, multi-agent sim",https://arxiv.org/abs/2406.14928,https://github.com/thinkwee/iAgents,InformativeBench(self)
+AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making,multi-agent sim,https://arxiv.org/abs/2411.03865,https://github.com/bigai-ai/adasociety,none(task)
+MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution,multi-agent collaboration,https://arxiv.org/abs/2403.17927,,SWE-bench dataset
+Chain of Agents: Large Language Models Collaborating on Long-Context Tasks,multi-agent collaboration,https://arxiv.org/abs/2406.02818,,HotpotQA、MuSiQue、NarrativeQA、Qasper、QuALITY、QMSum、GovReport、BookSum、. RepoBench-P
+FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making,multi-agent collaboration,https://arxiv.org/abs/2407.06567,,self（a market environment representation using real-world financial data）
+Star-Agents: Automatic Data Optimization with LLM Agents for Instruction Tuning,multi-agent collaboration,https://openreview.net/forum?id=jXsxGt80sv&referrer=%5Bthe%20profile%20of%20Haochen%20Qin%5D(%2Fprofile%3Fid%3D~Haochen_Qin1),,Supervised Fine-Tuning (SFT)
+Language Grounded Multi-Agent Communication for Ad-hoc Teamwork,MARL,https://arxiv.org/abs/2409.17348,,Predator Prey、 Urban Search & Rescue (USAR)
+Generative Agents: Interactive Simulacra of Human Behavior,multi-agent sim,https://arxiv.org/abs/2304.03442,https://github.com/joonspk-research/generative_agents,
+Epidemic Modeling with Generative Agents,multi-agent sim,https://arxiv.org/abs/2307.04986,none,
+On Generative Agents in Recommendation,multi-agent sim,https://arxiv.org/abs/2310.10108,https://github.com/LehengTHU/Agent4Rec,
+War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars,"multi-agent sim, social science",https://arxiv.org/abs/2311.17227,https://github.com/agiresearch/WarAgent,
+Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents,multi-agent sim,https://arxiv.org/html/2405.02957v1,none,
+"Unveiling the Truth and Facilitating Change:
+Towards Agent-based Large-scale Social Movement Simulation","multi-agent sim, social science",https://arxiv.org/abs/2402.16333,https://github.com/xymou/social_simulation,"Metoo, Roe, BLM"
+MAO: A Framework for Process Model Generation with Multi-Agent Orchestration,multi-agent collaboration,https://arxiv.org/abs/2408.01916,https://anonymous.4open.science/r/MAO-1074,"FG-C, CG-O"
+Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,"multi-agent collaboration, framework",https://arxiv.org/abs/2407.07061,https://github.com/OpenBMB/IoA,"TriviaQA, Natural Questions, HotpotQA, 2WikiMultiHopQA"
+Multi-Agent Software Development through Cross-Team Collaboration,multi-agent collaboration,https://arxiv.org/abs/2406.08979,https://github.com/OpenBMB/ChatDev,SRDD(self)
+Scaling Large-Language-Model-based Multi-Agent Collaboration,multi-agent collaboration,https://arxiv.org/abs/2406.07155,https://github.com/OpenBMB/ChatDev,"MMLU,HumanEval,SRDD,CommonGen-Hard"
+Iterative Experience Refinement of Software-Developing Agents,"learning, framework",https://arxiv.org/abs/2405.04219,,
+Synergistic Multi-Agent Framework with Trajectory Learning for Knowledge-Intensive Tasks,"multi-agent collaboration, learning",https://arxiv.org/abs/2407.09893,https://github.com/yueshengbin/SMART,self
+AgentCourt: Simulating Court with Adversarial Evolvable Lawyer Agents,multi-agent sim,https://doi.org/10.48550/arXiv.2408.08089,https://github.com/relic-yuexi/AgentCourt,AgentCourt(self)
+PsychoGAT: A Novel Psychological Measurement Paradigm through Interactive Fiction Games with LLM Agents,llm evaluation,https://aclanthology.org/2024.acl-long.779/,none,
+IBSEN: Director-Actor Agent Collaboration for Controllable and  Interactive Drama Script Generation,multi-agent collaboration,https://aclanthology.org/2024.acl-long.88/,https://github.com/OpenDFM/ibsen,none
+Exploring Collaboration Mechanisms for LLM Agents:  A Social Psychology View,multi-agent collaboration,https://aclanthology.org/2024.acl-long.782.pdf,https://github.com/zjunlp/MachineSoM,"MMLU, MATH, Chess Move Validity"
+MapCoder: Multi-Agent Code Generation for Competitive Problem Solving,multi-agent collaboration,https://aclanthology.org/2024.acl-long.269.pdf,https://github.com/Md-Ashraful-Pramanik/MapCoder,"HumanEval, EvalPlus, MBPP, APPS, xCodeEval, CodeContest"
+"PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety",evaluation on MGAS,https://aclanthology.org/2024.acl-long.812/,https://github.com/AI4Good24/PsySafe,PsySafe(self)
+Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?,multi-agent collaboration,https://aclanthology.org/2024.acl-long.331/,https://github.com/HKUST-KnowComp/LLM-discussion,FOLIO-wiki
+EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,multi-agent sim,https://aclanthology.org/2024.acl-long.829/,https://github.com/tsinghua-fib-lab/ACL24-EconAgent,
+LLMARENA: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments,evaluation on MGAS,https://aclanthology.org/2024.acl-long.705.pdf,https://github.com/THU-BPM/LLMArena.,
+ChatDev: Communicative Agents for Software Development,multi-agent collaboration,https://aclanthology.org/2024.acl-long.810/,https://github.com/OpenBMB/ChatDev,SRDD(self)
+"CoMM:Collaborative Multi-Agent, Multi-Reasoning-Path Prompting for Complex Problem Solving",multi-agent collaboration,https://aclanthology.org/2024.findings-naacl.112.pdf,none,
+MindAgent: Emergent Gaming Interaction,"multi-agent sim, evaluation on MGAS, multi-agent collaboration",https://aclanthology.org/2024.findings-naacl.200.pdf,none,
+Simulating Opinion Dynamics with Networks of LLM-based Agents,multi-agent sim,https://aclanthology.org/2024.findings-naacl.211/,https://github.com/yunshiuan/llm-agent-opinion-dynamics,self
+Large Language Model-driven Multi-Agent Simulation for News Diffusion Under Different Network Structures,multi-agent sim,https://arxiv.org/abs/2410.13909,none,FakeNewsNet
+A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading,multi-agent collaboration,[2409.16686] MSI-Agent: Incorporating Multi-Scale Insight into Embodied Agents for Superior Planning and Decision-Making,none,none
+AgentReview: Exploring Peer Review Dynamics with LLM Agents,multi-agent sim,[2406.12708] AgentReview: Exploring Peer Review Dynamics with LLM Agents,https://github.com/Ahren09/,real-world peer review for ICLR 2020 - 2023
+Triad: A Framework Leveraging a Multi-Role LLM-based Agent to Solve Knowledge Base Question Answering,multi-agent collaboration,https://arxiv.org/abs/2402.14320,none,
+An Electoral Approach to Diversify LLM-based Multi-Agent Collective Decision-Making,multi-agent collaboration,https://arxiv.org/abs/2410.15168,https://github. com/xiutian/GEDI,MCQA
+CoEvol: Constructing Better Responses for Instruction Finetuning through Multi-Agent Cooperation,"multi-agent collaboration, learning",https://arxiv.org/abs/2406.07054,https://github.com/lirenhao1997/CoEvol,"MT-Bench, AlpacaEval"
+"MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration","evaluation on MGAS, llm evaluation",https://arxiv.org/abs/2311.08562,https://github.com/cathyxl/MAgIC,MAgIC(self)
+Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations,multi-agent collaboration,https://arxiv.org/abs/2408.15232,https://github.com/stanford-oval/storm,WildSeek(Self)
+CodeAgent: Autonomous Communicative Agents for Code Review,multi-agent collaboration,https://arxiv.org/abs/2402.02172,https://github.com/Code4Agent/codeagent,"Trans-Review,AutoTransform,T5-Review"
+Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent,multi-agent collaboration,https://arxiv.org/abs/2402.13717,https://github.com/weiyifan1023/Neeko,Character-LLM-Data
+Stability of Multi-Agent Learning in Competitive Networks: Delaying the Onset of Chaos 
+LONGAGENT: Achieving Question Answering for 128k-Token-Long Documents through Multi-Agent Collaboration,multi-agent collaboration,https://aclanthology.org/2024.emnlp-main.912/,none,
+Small LLMs Are Weak Tool Learners: A Multi-LLM Agent,"multi-agent collaboration, learning",https://arxiv.org/abs/2401.07324,https://github.com/X-PLUG/Multi-LLM-Agent,"ToolBench, ToolAlpaca"
+Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,"multi-agent competition, multi-agent collaboration",https://arxiv.org/abs/2305.19118,https://github.com/Skytliang/Multi-Agents-Debate,MT-Bench
+Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy,multi-agent collaboration,https://arxiv.org/abs/2407.06813,,C-Diplo ArgirArcher（a scoring system）
+Counterfactual PPO Enhanced Shared Reflector for LLM-based Multi-agent Collaboration,multi-agent collaboration,,,
+Inverse Factorized Soft Q-Learning for Cooperative Multi-agent Imitation Learning,learning,https://arxiv.org/abs/2310.06801,,
+MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems,multi-agent collaboration,https://arxiv.org/abs/2404.04735,https://github.com/bin123apple/MACM,MATH
+Long-Horizon Planning for Multi-Agent Robots in Partially Observable Environments,multi-agent collaboration,https://arxiv.org/abs/2407.10031,,MAP-THOR(self)
+ZSC-Eval: An Evaluation Toolkit and Benchmark for Multi-agent Zero-shot Coordination,"evaluation on MGAS, multi-agent collaboration",https://arxiv.org/abs/2310.05208,https://github.com/sjtu-marl/zsc-eval,ZSC-Eval (self)
+,,[2308.11272] FoX: Formation-aware exploration in multi-agent reinforcement learning,,
+Very Large-Scale Multi-Agent Simulation in AgentScope,multi-agent sim,https://arxiv.org/abs/2407.17789,https://github.com/modelscope/agentscope/tree/main/examples/paper_large_scale_simulation,none
+Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents,multi-agent collaboration,https://arxiv.org/abs/2402.12327,https://github.com/wuzengqing001225/SABM_ShallWeTeamUp,none
+"Personalized Recommendation Systems using Multimodal, Autonomous, Multi Agent Systems",multi-agent collaboration,https://arxiv.org/abs/2410.19855,none,
+Adversarial Multi-Agent Evaluation of Large Language Models through Iterative Debates,"multi-agent competition, evaluation on MGAS",https://arxiv.org/abs/2410.04663,none,
+DroidSpeak: Enhancing Cross-LLM Communication,"multi-agent collaboration, framework",https://arxiv.org/abs/2411.02820,,"HotpotQA,NarrativeQA,MultifieldQA"
+ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems,framework,https://arxiv.org/abs/2408.02248,https://github.com/zhudotexe/redel,
+"AdaSociety: An Adaptive Environment with Social Structures for
+ Multi-Agent Decision-Making","multi-agent sim, framework",https://arxiv.org/abs/2411.03865,https://github.com/bigai-ai/AdaSociety.,AdaSociety(self)
+Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives,"multi-agent sim, survey",https://arxiv.org/pdf/2312.11970,https://github.com/tsinghua-fib-lab/LLM-Agent-Based-Modeling-and-Simulation,
+Wireless Multi-Agent Generative AI: From  Connected Intelligence to Collective Intelligence,multi-agent sim,https://arxiv.org/abs/2307.02757,,
+Helmsman of the Masses? Evaluate the Opinion Leadership of Large Language Models in the Werewolf Game,"multi-agent sim, persona",https://arxiv.org/abs/2404.01602,https://github.com/doslim/Evaluate-the-Opinion-Leadership-of-LLMs,
+Settling Decentralized Multi-Agent Coordinated Exploration by Novelty Sharing,multi-agent collaboration,https://ojs.aaai.org/index.php/AAAI/article/view/29693,none,"GridWorld, SMAC"
+Cooper: Coordinating Specialized Agents towards a Complex Dialogue Goal,multi-agent collaboration,https://ojs.aaai.org/index.php/AAAI/article/view/29739,https://github.com/YiCheng98/Cooper,"ESConv dataset, the P4G dataset"
+ProAgent: Building Proactive Cooperative AI with Large Language Models,multi-agent collaboration,https://openreview.net/forum?id=4MbxdXR6vg,https://pku-proagent.github.io/,Overcooked-AI
+SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents,multi-agent sim,https://openreview.net/forum?id=mM7VurbA4r,none,
+Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration,multi-agent collaboration,https://arxiv.org/abs/2307.05300,https://github.com/MikeWangWZHL/Solo-Performance-Prompting.git,TriviaQA
+AutoAgents: A Framework for Automatic Agent Generation,"multi-agent collaboration, framework",https://arxiv.org/abs/2309.17288,https://github.com/Link-AGI/AutoAgents,TriviaQA
+ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs,multi-agent collaboration,https://aclanthology.org/2024.acl-long.381/,https://github.com/dinobby/ReConcile,"StrategyQA, CSQA, GSM8K, AQuA, MATH, Date Understanding, ANLI"
+RoCo: Dialectic Multi-Robot Collaboration with Large Language Models,multi-agent collaboration,https://arxiv.org/abs/2307.04738,https://project-roco.github.io/,RoCoBench(self)
+MuMA-ToM: Multi-modal Multi-Agent Theory of Mind,llm evaluation,https://arxiv.org/abs/2408.12574,https://github.com/SCAI-JHU/MuMA-ToM,MuMA-ToM (self)
+TRAINING SOCIALLY ALIGNED LANGUAGE MODELS  IN SIMULATED HUMAN SOCIETY,learning,https://arxiv.org/abs/2305.16960,https://github.com/agi-templar/Stable-Alignment,
