@@ -1347,7 +1347,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-67" value="Physical" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="450" y="790" width="108.75" height="48.13" as="geometry" />
+          <mxGeometry x="460" y="800" width="108.75" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.425;exitY=0.08;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;exitPerimeter=0;" parent="1" source="skaffKzBVd656h6PqjQr-93" target="skaffKzBVd656h6PqjQr-85" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1370,7 +1370,7 @@
           <mxGeometry x="429.25" y="641.87" width="109.5" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-84" value="Game" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="362" y="741.8699999999999" width="88" height="48.13" as="geometry" />
+          <mxGeometry x="370" y="751.8699999999999" width="88" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-85" value="Collective Decision-Making" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="624.5" y="711.87" width="178" height="48.13" as="geometry" />
