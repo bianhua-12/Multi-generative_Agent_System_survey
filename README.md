@@ -72,4 +72,6 @@ This repository includes all the necessary code to reproduce the experiments in 
 - `/data`: Datasets used in the experiments.
 - `/figures`: Figures and diagrams used in the paper.
 
-for foreigner in this field, please see table 1, table 2 and table 3 for open-source code and benchmark or datasets in [paper](https://arxiv.org/abs/2412.17481).
+For foreigner in this field, please see table 1, table 2 and table 3 for open-source code and benchmark or datasets in [paper](https://arxiv.org/abs/2412.17481).
+
+Our collected papers are published in [this link](https://south-colony-f37.notion.site/167fe4b85d7480148386f2d100f5617f?v=167fe4b85d74811e9db9000ceb088ea4&pvs=4)

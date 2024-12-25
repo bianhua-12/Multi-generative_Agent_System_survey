@@ -92,8 +92,7 @@ CoEvol: Constructing Better Responses for Instruction Finetuning through Multi-A
 "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration","evaluation on MGAS, llm evaluation",https://arxiv.org/abs/2311.08562,https://github.com/cathyxl/MAgIC,MAgIC(self)
 Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations,multi-agent collaboration,https://arxiv.org/abs/2408.15232,https://github.com/stanford-oval/storm,WildSeek(Self)
 CodeAgent: Autonomous Communicative Agents for Code Review,multi-agent collaboration,https://arxiv.org/abs/2402.02172,https://github.com/Code4Agent/codeagent,"Trans-Review,AutoTransform,T5-Review"
-Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent,multi-agent collaboration,https://arxiv.org/abs/2402.13717,https://github.com/weiyifan1023/Neeko,Character-LLM-Data
-Stability of Multi-Agent Learning in Competitive Networks: Delaying the Onset of Chaos 
+Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent,multi-agent collaboration,https://arxiv.org/abs/2402.13717,https://github.com/weiyifan1023/Neeko,Character-LLM-Data 
 LONGAGENT: Achieving Question Answering for 128k-Token-Long Documents through Multi-Agent Collaboration,multi-agent collaboration,https://aclanthology.org/2024.emnlp-main.912/,none,
 Small LLMs Are Weak Tool Learners: A Multi-LLM Agent,"multi-agent collaboration, learning",https://arxiv.org/abs/2401.07324,https://github.com/X-PLUG/Multi-LLM-Agent,"ToolBench, ToolAlpaca"
 Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,"multi-agent competition, multi-agent collaboration",https://arxiv.org/abs/2305.19118,https://github.com/Skytliang/Multi-Agents-Debate,MT-Bench
