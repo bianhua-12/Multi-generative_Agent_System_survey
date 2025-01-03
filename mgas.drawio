@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
-    <mxGraphModel dx="2327" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1327" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="skaffKzBVd656h6PqjQr-49" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;Evaluating generative&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;agents&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BF6236;strokeColor=none;fontColor=#000000;fontSize=18;shadow=1;glass=1;" parent="1" vertex="1">
           <mxGeometry x="469" y="887.51" width="104.75" height="78.13" as="geometry" />
         </mxCell>
-        <mxCell id="skaffKzBVd656h6PqjQr-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;" parent="1" source="skaffKzBVd656h6PqjQr-10" target="skaffKzBVd656h6PqjQr-49" edge="1">
+        <mxCell id="skaffKzBVd656h6PqjQr-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.036;entryY=0.961;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;entryPerimeter=0;" parent="1" source="skaffKzBVd656h6PqjQr-10" target="skaffKzBVd656h6PqjQr-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="366" y="1010" as="sourcePoint" />
             <mxPoint x="401" y="1120" as="targetPoint" />
