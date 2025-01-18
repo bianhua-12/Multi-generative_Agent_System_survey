@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
     <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,7 +201,7 @@
         <mxCell id="skaffKzBVd656h6PqjQr-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Profile&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=default;fontSize=18;glass=0;shadow=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="145" y="1190" width="78.5" height="55.5" as="geometry" />
         </mxCell>
-        <mxCell id="skaffKzBVd656h6PqjQr-2" value="Reasoning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;fontSize=18;glass=0;shadow=1;" parent="1" vertex="1">
+        <mxCell id="skaffKzBVd656h6PqjQr-2" value="Action" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=default;fontSize=18;glass=0;shadow=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="238.75" y="1190" width="96.75" height="55.5" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-10" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;LLM-based Multi-Agent Systems&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;fontSize=22;" parent="1" vertex="1">
@@ -234,7 +234,7 @@
         <mxCell id="skaffKzBVd656h6PqjQr-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=18;" parent="1" source="skaffKzBVd656h6PqjQr-34" target="skaffKzBVd656h6PqjQr-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="skaffKzBVd656h6PqjQr-34" value="Environment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=default;fontSize=18;dashed=1;" parent="1" vertex="1">
+        <mxCell id="skaffKzBVd656h6PqjQr-34" value="Environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;fontSize=18;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="445" y="1110" width="109" height="48.13" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-37" value="Rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=none;fontSize=18;glass=0;shadow=1;" parent="1" vertex="1">
