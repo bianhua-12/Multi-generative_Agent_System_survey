@@ -314,6 +314,14 @@
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-3" value="Constraint Interact of Agents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="380" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="YjcnA5tS1VcOCI9oo2fW-8" target="YjcnA5tS1VcOCI9oo2fW-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="510" />
+              <mxPoint x="260" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-8" value="social media" style="shape=xor;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
           <mxGeometry x="275" y="430" width="60" height="80" as="geometry" />
         </mxCell>
@@ -327,18 +335,6 @@
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-10" value="like" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="440" width="35" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="YjcnA5tS1VcOCI9oo2fW-13" value="record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="492.5" width="40" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="YjcnA5tS1VcOCI9oo2fW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YjcnA5tS1VcOCI9oo2fW-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="501" as="sourcePoint" />
-            <mxPoint x="265" y="500.75" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="502" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-21" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;textShadow=0;dashed=1;edgeStyle=orthogonalEdgeStyle;jumpStyle=sharp;startArrow=classic;startFill=1;" edge="1" parent="1" source="YjcnA5tS1VcOCI9oo2fW-16" target="YjcnA5tS1VcOCI9oo2fW-19">
           <mxGeometry relative="1" as="geometry" />
@@ -429,6 +425,12 @@
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-75" value="blocked" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YjcnA5tS1VcOCI9oo2fW-77">
           <mxGeometry x="69" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-80" value="database" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjIwMCIgd2lkdGg9IjIwMCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBjbGFzcz0iaWNvbiI+PHBhdGggZD0iTTk2MCAxNjB2OTZjMCA4OC40LTIwMC42IDE2MC00NDggMTYwUzY0IDM0NC40IDY0IDI1NlYxNjBDNjQgNzEuNiAyNjQuNiAwIDUxMiAwczQ0OCA3MS42IDQ0OCAxNjB6IG0tMTA5LjYgMjY5LjRjNDEuNi0xNC44IDc5LjgtMzMuOCAxMDkuNi01Ny4yVjU3NmMwIDg4LjQtMjAwLjYgMTYwLTQ0OCAxNjBTNjQgNjY0LjQgNjQgNTc2VjM3Mi4yYzI5LjggMjMuNiA2OCA0Mi40IDEwOS42IDU3LjJDMjYzLjQgNDYxLjQgMzgzIDQ4MCA1MTIgNDgwczI0OC42LTE4LjYgMzM4LjQtNTAuNnpNNjQgNjkyLjJjMjkuOCAyMy42IDY4IDQyLjQgMTA5LjYgNTcuMkMyNjMuNCA3ODEuNCAzODMgODAwIDUxMiA4MDBzMjQ4LjYtMTguNiAzMzguNC01MC42YzQxLjYtMTQuOCA3OS44LTMzLjggMTA5LjYtNTcuMlY4NjRjMCA4OC40LTIwMC42IDE2MC00NDggMTYwUzY0IDk1Mi40IDY0IDg2NHYtMTcxLjh6Ii8+PC9zdmc+;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="480" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-82" value="record" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="485" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
