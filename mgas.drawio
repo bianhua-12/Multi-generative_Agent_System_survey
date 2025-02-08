@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="2">
   <diagram id="JpZkx26YbNmgNPjJ96g1" name="tree">
     <mxGraphModel dx="2901" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,6 +290,29 @@
             <mxPoint y="1110" as="sourcePoint" />
             <mxPoint x="113" y="1075" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0bWGjBheT1xtGQ3-5Z4j" name="第 2 页">
+    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aOGlwenCFgNjmDu3Sfx9-1" value="ENVIRONMENT" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="490" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="aOGlwenCFgNjmDu3Sfx9-2" value="TOOLS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aOGlwenCFgNjmDu3Sfx9-3" value="TOOLS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aOGlwenCFgNjmDu3Sfx9-4" value="TOOLS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="390" y="585" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aOGlwenCFgNjmDu3Sfx9-5" value="TOOLS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="585" width="190" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
