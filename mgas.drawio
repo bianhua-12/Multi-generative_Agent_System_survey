@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0bWGjBheT1xtGQ3-5Z4j" name="environment-conponets">
-    <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,6 +310,12 @@
         </mxCell>
         <mxCell id="aOGlwenCFgNjmDu3Sfx9-4" value="INTERVENTION INTERFACES" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="240" y="585" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-2" value="Translate Instruct into Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="380" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-3" value="Constraint Interact of Agents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="380" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
