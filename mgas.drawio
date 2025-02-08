@@ -432,6 +432,9 @@
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-82" value="record" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="215" y="485" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-83" value="instruction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="427.5" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
