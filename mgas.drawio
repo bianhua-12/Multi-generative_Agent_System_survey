@@ -308,12 +308,6 @@
         <mxCell id="aOGlwenCFgNjmDu3Sfx9-3" value="RULS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="380" y="360" width="200" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="YjcnA5tS1VcOCI9oo2fW-2" value="Translate Instruct into Record" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="380" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YjcnA5tS1VcOCI9oo2fW-3" value="Constraint Interact of Agents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="380" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="YjcnA5tS1VcOCI9oo2fW-8" target="YjcnA5tS1VcOCI9oo2fW-80">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
