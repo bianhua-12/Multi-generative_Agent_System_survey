@@ -403,7 +403,7 @@
           <mxGeometry x="327" y="50" width="47" height="21" as="geometry" />
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-78" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="YjcnA5tS1VcOCI9oo2fW-65">
-          <mxGeometry x="70" y="110" width="250" height="70" as="geometry" />
+          <mxGeometry x="80" y="110" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-70" value="&lt;div&gt;auction&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-env&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="YjcnA5tS1VcOCI9oo2fW-78">
           <mxGeometry width="250" height="70" as="geometry" />
