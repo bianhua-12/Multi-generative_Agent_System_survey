@@ -375,7 +375,7 @@
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-78" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" parent="YjcnA5tS1VcOCI9oo2fW-65" vertex="1" connectable="0">
           <mxGeometry x="80" y="110" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YjcnA5tS1VcOCI9oo2fW-70" value="&lt;div&gt;auction&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-env&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="YjcnA5tS1VcOCI9oo2fW-78" vertex="1">
+        <mxCell id="YjcnA5tS1VcOCI9oo2fW-70" value="auction scenario" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="YjcnA5tS1VcOCI9oo2fW-78" vertex="1">
           <mxGeometry width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-77" value="" style="group" parent="YjcnA5tS1VcOCI9oo2fW-78" vertex="1" connectable="0">
@@ -408,7 +408,7 @@
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-119" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="410" y="360" width="390" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="aOGlwenCFgNjmDu3Sfx9-3" value="RULS" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="YjcnA5tS1VcOCI9oo2fW-119" vertex="1">
+        <mxCell id="aOGlwenCFgNjmDu3Sfx9-3" value="RULES" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="YjcnA5tS1VcOCI9oo2fW-119" vertex="1">
           <mxGeometry width="390" height="190" as="geometry" />
         </mxCell>
         <mxCell id="YjcnA5tS1VcOCI9oo2fW-16" value="agent-a" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" parent="YjcnA5tS1VcOCI9oo2fW-119" vertex="1">
