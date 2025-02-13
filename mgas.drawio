@@ -711,7 +711,7 @@
           <mxGeometry x="88.78" width="25.1" height="25.1" as="geometry" />
         </mxCell>
         <mxCell id="mEx0XWJSiXjJkoI72J2Z-2" value="&lt;div&gt;Guardian&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="jwMhtOTiTMjlItBRIy7--49">
-          <mxGeometry x="115.10000000000002" y="2.099999999999966" width="50" height="23" as="geometry" />
+          <mxGeometry x="115.10000000000002" y="-3.419486915845482e-14" width="50" height="23" as="geometry" />
         </mxCell>
         <mxCell id="jwMhtOTiTMjlItBRIy7--50" value="poison" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="656" y="494.99999999999994" width="48" height="20" as="geometry" />
