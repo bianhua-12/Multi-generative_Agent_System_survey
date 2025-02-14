@@ -387,7 +387,7 @@
           <mxGeometry width="33.55" height="33.55" as="geometry" />
         </mxCell>
         <mxCell id="jwMhtOTiTMjlItBRIy7--49" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="340.5799999999999" y="610" width="167.84000000000012" height="138.50000000000006" as="geometry" />
+          <mxGeometry x="439.5799999999999" y="610" width="167.84000000000012" height="138.50000000000006" as="geometry" />
         </mxCell>
         <mxCell id="jwMhtOTiTMjlItBRIy7--46" value="" style="group" parent="jwMhtOTiTMjlItBRIy7--49" vertex="1" connectable="0">
           <mxGeometry width="80.2900000000001" height="138.50000000000006" as="geometry" />
@@ -453,7 +453,7 @@
           <mxGeometry x="115.10000000000002" y="-3.419486915845482e-14" width="50" height="23" as="geometry" />
         </mxCell>
         <mxCell id="1StaCtBuSXyUpz64UYEl-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="569" y="360" width="390" height="200" as="geometry" />
+          <mxGeometry x="43.379999999999995" y="585" width="390" height="200" as="geometry" />
         </mxCell>
         <mxCell id="aOGlwenCFgNjmDu3Sfx9-3" value="RULES" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1StaCtBuSXyUpz64UYEl-1" vertex="1">
           <mxGeometry width="390" height="200" as="geometry" />
