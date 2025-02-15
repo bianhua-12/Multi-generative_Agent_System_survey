@@ -116,8 +116,8 @@
         <mxCell id="skaffKzBVd656h6PqjQr-98" value="Tasks within long trajectory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#008a00, #4a890c);fontColor=#FFFFFF;fontSize=18;glass=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="820.93" width="140" height="57.51" as="geometry" />
         </mxCell>
-        <mxCell id="skaffKzBVd656h6PqjQr-99" value="General tasks" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#008a00, #4a890c);fontColor=#FFFFFF;fontSize=18;glass=0;shadow=1;" parent="1" vertex="1">
-          <mxGeometry y="750" width="100" height="50" as="geometry" />
+        <mxCell id="skaffKzBVd656h6PqjQr-99" value="General tasks" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=light-dark(#60a917, #4a890c);fontColor=#FFFFFF;fontSize=18;glass=0;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="667.51" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="skaffKzBVd656h6PqjQr-125" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.978;exitY=0.525;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;exitPerimeter=0;fontColor=#FFFFFF;" parent="1" source="skaffKzBVd656h6PqjQr-109" target="skaffKzBVd656h6PqjQr-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -290,15 +290,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-100" y="830.01" as="targetPoint" />
             <mxPoint x="-50" y="869.01" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GOkzWvYuXq3CHeqCuzEJ-7" value="Task oriented framework&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#60a917;fontColor=#FFFFFF;fontSize=18;glass=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="660" width="120" height="48.13" as="geometry" />
-        </mxCell>
-        <mxCell id="GOkzWvYuXq3CHeqCuzEJ-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=18;fontColor=#FFFFFF;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="skaffKzBVd656h6PqjQr-99" target="GOkzWvYuXq3CHeqCuzEJ-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-79.72" y="755.93" as="targetPoint" />
-            <mxPoint x="-48.72" y="793.93" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
