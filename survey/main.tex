@@ -1,0 +1,222 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{array}
+\title{From Demo Multi-Agent to Production Agentic Systems:\\An Engineering-Centric Survey (2025--2026Q1)}
+\author{Draft for bianhua-12/Multi-generative\_Agent\_System\_survey}
+\date{March 30, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This survey reframes LLM-based multi-agent systems (LLM-MAS) around deployability rather than novelty count. We analyze the 2025--2026Q1 transition from prompt-centric demonstrations toward protocolized, observable, and governable agent runtimes. We synthesize architecture patterns, protocol interoperability, state and memory design, training paradigms, benchmark evolution, infrastructure choices, and safety boundaries. The core thesis is that production value comes from controllability: explicit state transitions, policy-mediated tool execution, process-level diagnostics, and failure-aware iteration loops. We provide engineering judgments on where multi-agent systems outperform strong single-agent tool use, where they introduce avoidable complexity, and what minimum stack is required for reliable deployment.
+\end{abstract}
+
+\section{Introduction}
+The practical question in 2026 is not whether multi-agent systems are possible, but whether they are \emph{worth shipping}. Many systems can produce compelling traces in controlled demos, yet fail under long-horizon constraints, dynamic tools, and enterprise governance requirements. This survey therefore prioritizes evidence with migration value: reproducible benchmarks, open framework behavior, protocol-level interoperability, and failure-mode diagnostics.
+
+\paragraph{Scope.}
+We focus on 2025 and 2026Q1 signals while preserving minimal historical context needed for interpretation. We intentionally de-emphasize purely narrative role-play simulations unless they contribute to evaluation, protocol, or training methodology.
+
+\paragraph{Thesis.}
+The field is converging on a systems view where the central unit of progress is no longer the agent prompt, but the end-to-end runtime stack: orchestration, state, policy enforcement, observability, evaluation, and safety controls.
+
+\section{From Agent Prompting to Agent Systems}
+\subsection{Why the center of gravity moved}
+Three forces explain the shift:
+\begin{enumerate}[leftmargin=1.2em]
+  \item \textbf{Tool-bound tasks dominate value.} High-ROI scenarios (software engineering, enterprise workflow automation, research operations) require robust interaction with external systems.
+  \item \textbf{Static benchmark gains saturate quickly.} Teams need process visibility to understand why an apparently strong model fails in production.
+  \item \textbf{Risk surface scales with autonomy.} Permission boundaries, auditability, and rollback become deployment blockers if untreated.
+\end{enumerate}
+
+\subsection{Production criteria}
+A deployable system should satisfy:
+\begin{itemize}[leftmargin=1.2em]
+  \item deterministic or bounded state transitions,
+  \item policy-mediated tool execution,
+  \item replayable traces,
+  \item benchmarked regression gates,
+  \item explicit safety controls for protocol and connector layers.
+\end{itemize}
+
+\section{Architecture and Coordination Patterns}
+\subsection{Centralized orchestration vs decentralized coordination}
+\textbf{Centralized orchestration} remains the default for enterprise delivery because it simplifies policy enforcement and observability. \textbf{Decentralized coordination} can improve flexibility but raises debugging and consistency cost.
+
+\subsection{Planner--Executor--Verifier pipelines}
+A common high-value pattern separates concerns:
+\begin{itemize}[leftmargin=1.2em]
+  \item planner: decomposition and sequencing,
+  \item executor: tool actions and intermediate artifacts,
+  \item verifier/reviewer: constraint checks and correctness gates.
+\end{itemize}
+This decomposition is useful only if verifier independence is real; otherwise shared bias produces false confidence.
+
+\subsection{Hierarchical teams and graph workflows}
+Hierarchical and graph-based runtimes make handoffs explicit, enabling rollback and targeted retries. They also support budget controls (token/tool/latency ceilings) at node or edge level.
+
+\subsection{Failure taxonomy}
+Recurring failures include planning drift, tool thrashing, hidden coupling, and verification collapse. In practice, schema-enforced handoffs and deterministic checkpoints reduce these modes more reliably than adding more roles.
+
+\section{Protocols and Interoperability}
+\subsection{MCP as interface layer}
+Model Context Protocol (MCP) represents a structural change: external tools and data sources become protocol endpoints rather than bespoke glue. This improves composability and connector reuse.
+
+\subsection{A2A-style interoperability}
+Cross-runtime agent interoperability is strategically attractive, especially for enterprise ecosystems with heterogeneous vendors. However, semantic alignment, trust exchange, and policy portability remain open problems.
+
+\subsection{Protocol-induced attack surfaces}
+Protocolization does not only standardize capability; it standardizes failure modes. Critical risks include malicious endpoint descriptions, connector supply-chain compromise, and implicit privilege escalation via tool chains.
+
+\subsection{Design stance}
+Treat all protocol endpoints as untrusted by default. Use signed manifests, strict allowlists, runtime policy checks, and high-risk action confirmation gates.
+
+\section{Memory, State, and Observability}
+\subsection{Retrieval memory is not workflow state}
+Vector retrieval supports knowledge access, but does not provide transactional workflow guarantees. Production systems require explicit state objects and event-sourced execution logs.
+
+\subsection{Recommended layered design}
+\begin{enumerate}[leftmargin=1.2em]
+  \item session memory for short-term context,
+  \item task state for typed workflow progression,
+  \item organization knowledge for retrieval,
+  \item immutable audit logs for replay and compliance.
+\end{enumerate}
+
+\subsection{Replay and debugging}
+Without trace replay, teams cannot perform root-cause analysis on intermittent failures. Observability should include structured events, tool arguments, policy decisions, and transition metadata.
+
+\section{Training Paradigms for Agentic Reliability}
+\subsection{Pre-train effects}
+Pre-training quality still sets the upper bound for long-context reasoning, tool-use priors, and code-edit competence.
+
+\subsection{Mid-train environment shaping}
+Interactive environments improve action discipline and recovery behavior by exposing models to delayed feedback and branching trajectories.
+
+\subsection{Post-train loops}
+SFT improves protocol/tool-call discipline, while RL or verifier-guided optimization can improve long-horizon reliability. Self-play/debate should be used selectively; without robust diagnostics it can overfit to superficial coordination patterns.
+
+\subsection{Practical interpretation}
+For engineering teams, post-train quality is inseparable from evaluation quality. A weak eval loop can make stronger post-training appear ineffective.
+
+\section{Evaluation and Diagnostics}
+\subsection{Why static scores are insufficient}
+Outcome-only metrics obscure process brittleness. Two systems with similar success rate can differ dramatically in rollback frequency, unsafe tool calls, and cost variance.
+
+\subsection{Three-layer evaluation model}
+\begin{enumerate}[leftmargin=1.2em]
+  \item outcome layer: success, cost, latency,
+  \item process layer: failure taxonomy, tool misuse, retry cascades,
+  \item safety layer: policy violations, injection success rate, leakage risk.
+\end{enumerate}
+
+\subsection{SWE benchmark ecosystem}
+SWE-oriented benchmarks (including verified and live setups) materially influenced engineering practice because they tie model quality to executable repository outcomes rather than abstract reasoning proxies.
+
+\subsection{Deployment gating}
+Evaluation should be integrated into CI/CD-like deployment gates. Model or policy updates should not ship unless predefined process and safety thresholds are met.
+
+\section{Infrastructure and Deployment}
+\subsection{Runtime essentials}
+A production runtime should provide explicit transitions, retry policies, timeout controls, and rollback semantics. Budget-aware scheduling is required for stable cost and latency.
+
+\subsection{Security and governance plane}
+Credential scoping, secret isolation, and policy engines are non-optional once tools are connected to business systems.
+
+\subsection{Cloud vs self-hosted tradeoff}
+Cloud options accelerate iteration but raise lock-in and compliance concerns. Self-hosted deployments improve control but transfer security and operational burden to internal teams.
+
+\section{Safety and Governance}
+\subsection{Beyond prompt injection}
+Agentic systems are vulnerable to tool schema poisoning, endpoint spoofing, connector compromise, and chained privilege escalation.
+
+\subsection{Control architecture}
+Effective controls combine least privilege, action-type policies, audit trails, and continuous red-team evaluation. Safety should be measured continuously, not only at release milestones.
+
+\section{High-Value Application Domains}
+\subsection{Software engineering agents}
+This is currently the clearest high-value segment because outputs are executable and verifiable. The major challenges are repository understanding, test-grounded edits, and robust recovery after failed patches.
+
+\subsection{Enterprise workflow automation}
+Ticketing, compliance drafting, and multi-system operations show value when policy boundaries and approvals are explicit.
+
+\subsection{Research automation}
+Literature triage, experiment planning, and reproducibility checks are promising but require strong citation integrity and version control discipline.
+
+\section{When Multi-Agent Beats Single-Agent (and When It Does Not)}
+\subsection{Favorable conditions}
+Multi-agent designs are justified when:
+\begin{itemize}[leftmargin=1.2em]
+  \item task decomposition is natural and stable,
+  \item verifier independence improves reliability,
+  \item parallel execution reduces wall-clock time,
+  \item failures are isolatable at subtask boundaries.
+\end{itemize}
+
+\subsection{Unfavorable conditions}
+Multi-agent is often counterproductive when:
+\begin{itemize}[leftmargin=1.2em]
+  \item the task is short and tool path is simple,
+  \item observability is weak,
+  \item coordination overhead dominates compute budget,
+  \item team maturity is insufficient for policy + eval operations.
+\end{itemize}
+
+\section{Minimum Viable Stack for Shipping Teams}
+\begin{enumerate}[leftmargin=1.2em]
+  \item workflow orchestrator with typed state,
+  \item policy-mediated tool gateway,
+  \item event log + replay-capable observability,
+  \item benchmark + diagnostics harness,
+  \item safety red-team and deployment gate.
+\end{enumerate}
+
+\section{Open Problems (2026--2028)}
+\begin{itemize}[leftmargin=1.2em]
+  \item durable semantic interoperability across vendor runtimes,
+  \item standard protocol-security baselines for connector ecosystems,
+  \item contamination-resistant live evaluation for non-SWE domains,
+  \item formal guarantees for long-horizon workflow stability,
+  \item cost-aware coordination policies under dynamic workloads.
+\end{itemize}
+
+\section{Conclusion}
+The highest-signal trend in 2025--2026Q1 is the maturation of agentic systems engineering. Progress is increasingly determined by protocol discipline, runtime controllability, evaluation depth, and safety governance. Multi-agent architectures create value when they improve reliability and throughput under constraints; otherwise they become complexity multipliers. The path forward is not more role-play, but better systems design.
+
+\section*{Evidence Map (Working Table)}
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.17\linewidth} >{\raggedright\arraybackslash}p{0.11\linewidth} >{\raggedright\arraybackslash}p{0.13\linewidth} >{\raggedright\arraybackslash}p{0.37\linewidth} >{\raggedright\arraybackslash}p{0.12\linewidth}}
+\toprule
+Artifact & Type & Tier & Why it matters & Industrial value \\
+\midrule
+\endfirsthead
+\toprule
+Artifact & Type & Tier & Why it matters & Industrial value \\
+\midrule
+\endhead
+OpenAI platform docs & Doc & A & Runtime/tooling/tracing direction, deployability hooks & High \\
+MCP specification & Protocol & A & Standardized model-tool-data interface layer & High \\
+SWE-bench family & Benchmark & A & Realistic coding-agent performance signal & High \\
+LangGraph & Framework & A & Graph orchestration with explicit workflow semantics & High \\
+AutoGen & Framework & A & Multi-agent coordination framework with broad adoption & High \\
+LlamaIndex workflows & Framework/Doc & A & Knowledge-centric agent pipeline design & High \\
+CrewAI & Framework & A & Rapid role-based composition with practical adoption & Medium-High \\
+\bottomrule
+\end{longtable}
+
+\bibliographystyle{plain}
+\begin{thebibliography}{99}
+\bibitem{openai_docs} OpenAI Platform Documentation. \url{https://platform.openai.com/docs}.
+\bibitem{mcp} Model Context Protocol. \url{https://modelcontextprotocol.io/}.
+\bibitem{swebench} SWE-bench. \url{https://www.swebench.com/}.
+\bibitem{autogen} Microsoft AutoGen. \url{https://github.com/microsoft/autogen}.
+\bibitem{langgraph} LangGraph. \url{https://github.com/langchain-ai/langgraph}.
+\bibitem{llamaindex} LlamaIndex Documentation. \url{https://docs.llamaindex.ai/}.
+\bibitem{crewai} CrewAI. \url{https://github.com/crewAIInc/crewAI}.
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,11 @@
+date,id,title,type,organization,tier,url
+2023-08-07,agentbench,AgentBench: Evaluating LLMs as Agents,paper,THUDM,A,https://arxiv.org/abs/2308.03688
+2025-01-01,swebench,SWE-bench,benchmark,Princeton NLP,A,https://www.swebench.com/
+2025-01-08,swelive_signal,SWE-bench Live,benchmark,Princeton NLP et al.,A,https://www.swebench.com/
+2025-01-31,openai_preparedness,Preparedness Framework / system cards,policy-doc,OpenAI,A,https://openai.com/safety/
+2026-03-30,openai_docs_agents,OpenAI Platform Documentation (Agents/Responses),doc,OpenAI,A,https://platform.openai.com/docs
+2026-03-30,mcp_spec,Model Context Protocol,protocol,Anthropic + community,A,https://modelcontextprotocol.io/
+2026-03-30,langgraph_repo,LangGraph,repo,LangChain,A,https://github.com/langchain-ai/langgraph
+2026-03-30,autogen_repo,Microsoft AutoGen,repo,Microsoft,A,https://github.com/microsoft/autogen
+2026-03-30,llamaindex_docs,LlamaIndex Docs,doc,LlamaIndex,A,https://docs.llamaindex.ai/
+2026-03-30,crewai_repo,CrewAI,repo,CrewAI,A,https://github.com/crewAIInc/crewAI
