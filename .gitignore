@@ -1,0 +1,13 @@
+# LaTeX build artifacts
+/survey/*.aux
+/survey/*.bbl
+/survey/*.bcf
+/survey/*.blg
+/survey/*.fdb_latexmk
+/survey/*.fls
+/survey/*.log
+/survey/*.out
+/survey/*.pdf
+/survey/*.run.xml
+/survey/*.synctex.gz
+/survey/*.toc

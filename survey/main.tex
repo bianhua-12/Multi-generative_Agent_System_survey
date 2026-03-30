@@ -5,7 +5,7 @@
 \usepackage{longtable}
 \usepackage{enumitem}
 \usepackage{array}
-\title{From Demo Multi-Agent to Production Agentic Systems:\\An Engineering-Centric Survey (2025--2026Q1)}
+\title{From Demo Multi-Agent to Production Agentic Systems:\\A Layered Survey of LLM-MAS (2024--2026Q1)}
 \author{Draft for bianhua-12/Multi-generative\_Agent\_System\_survey}
 \date{March 30, 2026}
 
@@ -13,14 +13,14 @@
 \maketitle
 
 \begin{abstract}
-This survey reframes LLM-based multi-agent systems (LLM-MAS) around deployability rather than novelty count. We analyze the 2025--2026Q1 transition from prompt-centric demonstrations toward protocolized, observable, and governable agent runtimes. We synthesize architecture patterns, protocol interoperability, state and memory design, training paradigms, benchmark evolution, infrastructure choices, and safety boundaries. The core thesis is that production value comes from controllability: explicit state transitions, policy-mediated tool execution, process-level diagnostics, and failure-aware iteration loops. We provide engineering judgments on where multi-agent systems outperform strong single-agent tool use, where they introduce avoidable complexity, and what minimum stack is required for reliable deployment.
+This survey extends a 2024 LLM-MAS survey baseline with 2025--2026Q1 literature and industry signals. Rather than collapsing the field into a production-only shortlist, we organize representative evidence across architecture, coordination, memory/state, training, evaluation/diagnostics, protocols, safety, and applications. The 2025--2026Q1 transition still centers on protocolized, observable, and governable agent runtimes, but the broader literature remains necessary to explain where systems fail, how social interaction is evaluated, and which application classes stay in scope. The core thesis is that production value comes from controllability: explicit state transitions, policy-mediated tool execution, process-level diagnostics, and failure-aware iteration loops.
 \end{abstract}
 
 \section{Introduction}
-The practical question in 2026 is not whether multi-agent systems are possible, but whether they are \emph{worth shipping}. Many systems can produce compelling traces in controlled demos, yet fail under long-horizon constraints, dynamic tools, and enterprise governance requirements. This survey therefore prioritizes evidence with migration value: reproducible benchmarks, open framework behavior, protocol-level interoperability, and failure-mode diagnostics.
+The practical question in 2026 is not whether multi-agent systems are possible, but whether they are \emph{worth shipping}. Many systems can produce compelling traces in controlled demos, yet fail under long-horizon constraints, dynamic tools, and enterprise governance requirements. This survey therefore prioritizes evidence with migration value: reproducible benchmarks, open framework behavior, protocol-level interoperability, and failure-mode diagnostics, while preserving representative literature needed to keep the field description honest.
 
 \paragraph{Scope.}
-We focus on 2025 and 2026Q1 signals while preserving minimal historical context needed for interpretation. We intentionally de-emphasize purely narrative role-play simulations unless they contribute to evaluation, protocol, or training methodology.
+We treat 2025 and 2026Q1 as the primary delta, while preserving representative 2023--2024 context from the original survey baseline. We de-emphasize ungrounded role-play demos, but retain social-interaction and debate lines when they contribute reusable benchmarks, datasets, realism metrics, or alignment methodology.
 
 \paragraph{Thesis.}
 The field is converging on a systems view where the central unit of progress is no longer the agent prompt, but the end-to-end runtime stack: orchestration, state, policy enforcement, observability, evaluation, and safety controls.
@@ -186,7 +186,7 @@ Multi-agent is often counterproductive when:
 \end{itemize}
 
 \section{Conclusion}
-The highest-signal trend in 2025--2026Q1 is the maturation of agentic systems engineering. Progress is increasingly determined by protocol discipline, runtime controllability, evaluation depth, and safety governance. Multi-agent architectures create value when they improve reliability and throughput under constraints; otherwise they become complexity multipliers. The path forward is not more role-play, but better systems design.
+The highest-signal trend in 2025--2026Q1 is the maturation of agentic systems engineering. Progress is increasingly determined by protocol discipline, runtime controllability, evaluation depth, and safety governance. Multi-agent architectures create value when they improve reliability and throughput under constraints; otherwise they become complexity multipliers. The path forward is not more ungrounded role-play, but better systems design paired with behavior-aware evaluation.
 
 \section*{Evidence Map (Working Table)}
 \begin{longtable}{>{\raggedright\arraybackslash}p{0.17\linewidth} >{\raggedright\arraybackslash}p{0.11\linewidth} >{\raggedright\arraybackslash}p{0.13\linewidth} >{\raggedright\arraybackslash}p{0.37\linewidth} >{\raggedright\arraybackslash}p{0.12\linewidth}}
@@ -198,25 +198,42 @@ Artifact & Type & Tier & Why it matters & Industrial value \\
 Artifact & Type & Tier & Why it matters & Industrial value \\
 \midrule
 \endhead
+AgentBench & Benchmark & A & Historical agent-eval baseline before the 2025 shift & Medium \\
+SWE-bench Verified & Benchmark & A & Reliable coding-agent regression set with human validation & High \\
+SWE-Gym & Paper/Env & A/B & Training and verifier environment for SWE agents & High \\
+MAST / MAST-Data & Paper/Dataset & A/B & Failure taxonomy and trajectory-level diagnosis & Medium-High \\
+SWE-bench Live & Benchmark & A & Anti-contamination, continuously refreshed SWE pressure test & High \\
+DEBATE & Benchmark/Dataset & B & Opinion-dynamics and social-interaction realism coverage & Medium \\
+M-MAD & Paper/Code & B & Debate-style coordination used as an evaluation system & Medium \\
+CIR3 & Journal paper & B & Collaborative QA application coverage beyond SWE & Medium \\
+MCP launch + spec & Protocol & A & Standardized model-tool-data interface layer & High \\
 OpenAI platform docs & Doc & A & Runtime/tooling/tracing direction, deployability hooks & High \\
-MCP specification & Protocol & A & Standardized model-tool-data interface layer & High \\
-SWE-bench family & Benchmark & A & Realistic coding-agent performance signal & High \\
 LangGraph & Framework & A & Graph orchestration with explicit workflow semantics & High \\
-AutoGen & Framework & A & Multi-agent coordination framework with broad adoption & High \\
+AutoGen & Framework & A & Multi-agent coordination plus memory/runtime evolution & High \\
 LlamaIndex workflows & Framework/Doc & A & Knowledge-centric agent pipeline design & High \\
-CrewAI & Framework & A & Rapid role-based composition with practical adoption & Medium-High \\
+CrewAI & Framework & B & High-level role-oriented composition and comparison point & Medium-High \\
+Sonar SWE-bench release & Industry signal & B & Benchmark-to-product translation in 2026 messaging & High \\
 \bottomrule
 \end{longtable}
 
 \bibliographystyle{plain}
 \begin{thebibliography}{99}
+\bibitem{agentbench} AgentBench. \url{https://arxiv.org/abs/2308.03688}.
+\bibitem{swebench_verified} Introducing SWE-bench Verified. \url{https://openai.com/index/introducing-swe-bench-verified/}.
+\bibitem{swegym} Training Software Engineering Agents and Verifiers with SWE-Gym. \url{https://arxiv.org/abs/2412.21139}.
+\bibitem{mast} Why Do Multi-Agent LLM Systems Fail? \url{https://arxiv.org/abs/2503.13657}.
+\bibitem{swelive} SWE-bench Goes Live! \url{https://arxiv.org/abs/2505.23419}.
+\bibitem{mmad} M-MAD. \url{https://aclanthology.org/2025.acl-long.351/}.
+\bibitem{debate} DEBATE. \url{https://arxiv.org/abs/2510.25110}.
+\bibitem{cir3} Coordinated LLM multi-agent systems for collaborative question-answer generation. \url{https://doi.org/10.1016/j.knosys.2025.114627}.
+\bibitem{mcp_launch} Introducing the Model Context Protocol. \url{https://www.anthropic.com/news/model-context-protocol}.
 \bibitem{openai_docs} OpenAI Platform Documentation. \url{https://platform.openai.com/docs}.
 \bibitem{mcp} Model Context Protocol. \url{https://modelcontextprotocol.io/}.
-\bibitem{swebench} SWE-bench. \url{https://www.swebench.com/}.
 \bibitem{autogen} Microsoft AutoGen. \url{https://github.com/microsoft/autogen}.
-\bibitem{langgraph} LangGraph. \url{https://github.com/langchain-ai/langgraph}.
-\bibitem{llamaindex} LlamaIndex Documentation. \url{https://docs.llamaindex.ai/}.
+\bibitem{langgraph} LangGraph. \url{https://docs.langchain.com/oss/python/langgraph}.
+\bibitem{llamaindex} LlamaIndex Multi-Agent Workflows. \url{https://docs.llamaindex.ai/en/stable/understanding/agent/multi_agent/}.
 \bibitem{crewai} CrewAI. \url{https://github.com/crewAIInc/crewAI}.
+\bibitem{sonar} Sonar Claims Top Spot on SWE-bench leaderboard. \url{https://www.sonarsource.com/company/press-releases/sonar-claims-top-spot-on-swe-bench-leaderboard/}.
 \end{thebibliography}
 
 \end{document}

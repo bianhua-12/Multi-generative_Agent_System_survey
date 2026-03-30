@@ -1,32 +1,42 @@
-# LLM-based Multi-Agent Systems (LLM-MAS) Knowledge Base (2025–2026 Q1)
+# LLM-based Multi-Agent Systems (LLM-MAS) Knowledge Base (2024 Baseline + 2025–2026 Q1 Delta)
 
-> From demo-centric multi-agent prototypes to production-grade agentic systems: protocols, runtime, evaluation, safety, and industrial deployment.
+> A layered survey companion and engineering knowledge base that extends the original 2024 repo with 2025–2026 early literature, benchmarks, protocols, and industry signals.
 
 ## Project Positioning
 
-This repository has been upgraded from an early survey companion into an **engineering-first, industry-oriented curated knowledge base**. It is designed to answer three practical questions:
+This repository should be read as a **layered knowledge base built on top of the original 2024 survey materials**, not as a production-only shortlist. It is designed to answer four practical questions:
 
-1. Which LLM-MAS directions still create real value by 2026?
-2. Why is the industry focus shifting from prompt tricks to protocol/runtime/eval/safety?
-3. What is the minimum viable technical stack for shipping multi-agent applications?
+1. What changed in LLM-MAS during 2025–2026Q1?
+2. Which papers, benchmarks, datasets, frameworks, and product signals define those changes?
+3. Which lines are directly deployment-relevant, and which still matter mainly as diagnostic or scope-setting evidence?
+4. How should a team separate evidence strength (`tier`) from inclusion scope?
+
+## Scope Guardrail
+
+- Preserve representative 2023–2024 context needed to interpret the 2025–2026 shift.
+- Cover the report's main literature lines: architecture/orchestration, coordination, memory/state, training, applications, and safety/governance.
+- Keep evaluation/diagnostics, protocols, and industry signals as first-class companion layers.
+- Include representative Tier B/C entries when they anchor an important research direction, benchmark family, or application class.
+- Do not collapse social/debate/role-play work into "noise" when it contributes benchmark, dataset, or alignment methodology.
 
 ## Reading Path (Priority Order)
 
-1. `docs/overview/2026_thesis.md` — Core thesis, signal-vs-noise filter, and value boundaries.
-2. `docs/infra/production_checklist.md` — Practical runtime and reliability checklist.
-3. `docs/evaluation/eval_playbook.md` — How to avoid "looks smart, fails in production".
-4. `docs/protocols/protocol_landscape.md` — MCP / A2A / connector interoperability and risks.
-5. `resources/papers/2025.md` and `resources/papers/2026_q1.md` — Curated high-value evidence.
+1. `docs/overview/scope_and_curation.md` — Inclusion rules and how this repo maps back to the PDF.
+2. `docs/overview/2026_thesis.md` — High-signal judgments after scope is understood.
+3. `resources/papers/foundations_2023_2024.md` — Minimal historical context preserved from the pre-2025 baseline.
+4. `resources/papers/2025.md` and `resources/papers/2026_q1.md` — Time-ordered delta coverage.
+5. `resources/papers/{architecture,coordination,memory_state,evaluation,training,infra,safety,applications}.md` — Theme navigation.
 
 ## How to Read the Field (2026Q1 Thesis)
 
-- The main axis is **system controllability**, not paper volume.
+- The main axis is **system controllability**, not paper volume alone.
 - Multi-agent is **not a default win**; it works when decomposition, verification, or parallelism creates measurable gains.
-- Protocolization (MCP/A2A-like directions) is becoming a watershed in tooling integration and governance.
-- Evaluation is shifting from static leaderboards to live/process diagnostics (especially in SWE workflows).
+- Protocolization (MCP and adjacent directions) is becoming a watershed in tooling integration and governance.
+- Evaluation is shifting from static leaderboards to live/process diagnostics, but social-behavioral benchmarks still matter for non-SWE MAS tasks.
 
 ## Topic Navigation
 
+- Scope / curation: `docs/overview/scope_and_curation.md`
 - Architecture: `docs/architecture/architecture_patterns.md`
 - Coordination: `docs/coordination/coordination_failures.md`
 - Protocols: `docs/protocols/protocol_landscape.md`
@@ -40,24 +50,26 @@ This repository has been upgraded from an early survey companion into an **engin
 
 ## High-Value Resource Entry Points
 
-- By time: `resources/papers/2025.md`, `resources/papers/2026_q1.md`
-- By theme: `resources/papers/{architecture,evaluation,training,infra,safety,applications}.md`
+- By time: `resources/papers/foundations_2023_2024.md`, `resources/papers/2025.md`, `resources/papers/2026_q1.md`
+- By theme: `resources/papers/{architecture,coordination,memory_state,evaluation,training,infra,safety,applications}.md`
 - Protocol/framework/company layers: `resources/protocols/`, `resources/frameworks/`, `resources/companies/`
 - Machine-readable metadata: `data/bibliography.json`, `data/bibliography.csv`, `data/timeline.csv`
 
 ## Repository Structure
 
 ```text
-/docs        Judgment-oriented docs (read first)
-/resources   Evidence-oriented curated entries (Tier A / strong Tier B)
+/docs        Judgment-oriented docs and scope guardrails
+/resources   Evidence-oriented entries across papers, benchmarks, frameworks, and signals
 /data        Script-maintained structured metadata
-/survey      arXiv-oriented survey draft (LaTeX)
+/survey      Survey draft aligned with the layered scope
 /scripts     Data transformation scripts
 ```
 
 ## Maintenance Principles
 
-- Keep Tier A and strong Tier B evidence only.
+- `tier` records evidence strength; it is not a hard inclusion gate.
 - Every entry must answer: **why it matters**.
-- Prioritize reproducibility, deployability, and auditability.
+- Prefer canonical paper/project URLs over search result pages.
+- Mark living docs/specs with snapshot dates.
+- Keep scope-completeness entries even when direct industrial value is indirect.
 - Mark evidence uncertainty explicitly.

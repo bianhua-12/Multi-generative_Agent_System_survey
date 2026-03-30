@@ -1,4 +1,9 @@
-# 2025–2026Q1 Thesis (High-Signal Version)
+# 2025–2026Q1 Thesis (High-Signal, Scope-Aligned Version)
+
+## 0) Scope Guardrail
+- This repo extends a 2024 survey baseline; it is not a fresh-start pruning exercise.
+- High-signal judgment should narrow conclusions, not erase representative literature lines.
+- Social/debate-style MAS work stays in scope when it contributes datasets, realism metrics, or behavioral diagnostics.
 
 ## 1) Mainline Trend
 1. **From agent prompt to agent system**: competitive advantage is moving to runtime/state/eval/safety.
@@ -6,8 +11,8 @@
 3. **SWE and tool-heavy workflows are the real stress test**: they expose reliability, recovery, and governance limits.
 
 ## 2) What Remains Noise in 2026
-- Role-play/debate setups without reproducible engineering loops.
-- Social-simulation demos with weak transfer to production workflows.
+- Role-play/debate setups without reusable data, behavioral metrics, or verification loops.
+- Social-simulation claims that do not measure opinion dynamics, role consistency, or transfer value.
 - Automation stacks without permission boundaries, replayability, or failure diagnostics.
 
 ## 3) When Multi-Agent Is Worth It
@@ -27,3 +32,8 @@
 - State store (structured state + immutable event log)
 - Eval harness (task success + process failure taxonomy)
 - Safety guardrails (injection/tool abuse/supply-chain controls)
+
+## 5) Why Some Less-Directly-Deployable Papers Stay
+- `MAST` / `MAST-Data`: failure taxonomy and trajectory diagnosis.
+- `DEBATE`, `M-MAD`, and cultural-alignment debate work: coordination and social-interaction evaluation coverage.
+- `CIR3`-style application papers: preserve application diversity beyond SWE and enterprise ops.

@@ -10,9 +10,15 @@ Protocols convert tool integration from one-off glue code into governable infras
 
 ## A2A / Interoperability Directions
 - Value: cross-runtime agent interoperability ambition.
-- Current reality: semantic alignment and security boundaries remain immature.
+- Current reality: semantic alignment and security boundaries remain immature, and evidence quality is weaker than for MCP.
 
 ## Design Recommendations
 - Use zero-trust defaults for all protocol endpoints.
 - Route every tool execution through policy + audit checks.
 - Apply human confirmation for high-impact or irreversible actions.
+
+## Curation Rule
+
+Keep a clear distinction between:
+- launched or documented protocols with strong primary sources
+- interoperability directions that are still mostly trend signals
