@@ -7,7 +7,7 @@
 /survey/*.fls
 /survey/*.log
 /survey/*.out
-/survey/*.pdf
+*.pdf
 /survey/*.run.xml
 /survey/*.synctex.gz
 /survey/*.toc
