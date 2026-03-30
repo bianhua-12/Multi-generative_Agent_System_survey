@@ -1,5 +1,14 @@
 # Protocol Landscape: MCP / A2A / Tool Connectors
 
+## What This Topic Is
+
+Protocols matter once agentic systems connect to tools, data sources, and possibly other agents through reusable interfaces rather than one-off glue code.
+
+## Common Beginner Confusion
+
+- Protocols are not the whole field; they are one layer in the system stack.
+- A trend signal about interoperability is weaker evidence than a launched, documented protocol with real implementations.
+
 ## Why Protocols Matter Now
 Protocols convert tool integration from one-off glue code into governable infrastructure: identity, authorization, auditability, and compatibility.
 

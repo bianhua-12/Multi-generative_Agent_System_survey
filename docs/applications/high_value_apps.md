@@ -1,5 +1,9 @@
 # High-Value Applications
 
+## What This Topic Is
+
+Application coverage shows where LLM-MAS is used, not only where it is easiest to commercialize.
+
 ## Domains with Clear Demand Pull
 - Software engineering agents (triage, patch drafting, test repair)
 - Enterprise workflows (ticketing, CRM/ERP workflows, compliance drafting)

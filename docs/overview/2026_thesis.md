@@ -1,4 +1,6 @@
-# 2025–2026Q1 Thesis (High-Signal, Scope-Aligned Version)
+# Advanced Thesis: High-Signal Interpretation Of 2025–2026Q1
+
+Read this page **after** `docs/overview/beginner_primer.md`. It is an interpretation layer, not the default first stop for newcomers.
 
 ## 0) Scope Guardrail
 - This repo extends a 2024 survey baseline; it is not a fresh-start pruning exercise.

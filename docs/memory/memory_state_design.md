@@ -1,5 +1,14 @@
 # Memory / State Design
 
+## What This Topic Is
+
+This topic is about how an agentic system stores progress, retrieves knowledge, and keeps execution coherent across multiple steps.
+
+## Common Beginner Confusion
+
+- Memory is not only vector retrieval.
+- Context window length is not a substitute for explicit task state.
+
 - Vector storage is for retrieval; it is not a workflow state model.
 - Production systems need dual tracks: event log + structured state.
 - Long-horizon tasks require checkpoint / replay / rollback by design.

@@ -1,4 +1,13 @@
-# Security Threat Model
+# Safety And Security Threat Model
+
+## What This Topic Is
+
+Safety in LLM-MAS is not only about prompt injection. Once tools, protocols, and multiple agents are involved, the system gains new attack surfaces and new coordination failures.
+
+## Common Beginner Confusion
+
+- Tool use creates security problems even when the prompt looks harmless.
+- Better reasoning does not remove the need for permission boundaries, audit trails, or sandboxing.
 
 ## Threats beyond prompt layer
 1. Tool schema injection

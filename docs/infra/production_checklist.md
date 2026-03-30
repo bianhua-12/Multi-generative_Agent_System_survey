@@ -1,5 +1,7 @@
 # Production Checklist (LLM-MAS)
 
+This page belongs to the **Builder Path**. Read it after the primer and the topic pages, not before them.
+
 - Orchestration: graph/workflow runtime with explicit transitions
 - Security: authn/authz, scoped credentials, secret isolation
 - Reliability: retry budgets, timeout policies, rollback paths

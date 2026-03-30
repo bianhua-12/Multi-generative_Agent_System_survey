@@ -5,7 +5,7 @@
 \usepackage{longtable}
 \usepackage{enumitem}
 \usepackage{array}
-\title{From Demo Multi-Agent to Production Agentic Systems:\\A Layered Survey of LLM-MAS (2024--2026Q1)}
+\title{Understanding LLM-MAS Before Shipping It:\\A Beginner-to-Advanced Survey (2024--2026Q1)}
 \author{Draft for bianhua-12/Multi-generative\_Agent\_System\_survey}
 \date{March 30, 2026}
 
@@ -13,11 +13,13 @@
 \maketitle
 
 \begin{abstract}
-This survey extends a 2024 LLM-MAS survey baseline with 2025--2026Q1 literature and industry signals. Rather than collapsing the field into a production-only shortlist, we organize representative evidence across architecture, coordination, memory/state, training, evaluation/diagnostics, protocols, safety, and applications. The 2025--2026Q1 transition still centers on protocolized, observable, and governable agent runtimes, but the broader literature remains necessary to explain where systems fail, how social interaction is evaluated, and which application classes stay in scope. The core thesis is that production value comes from controllability: explicit state transitions, policy-mediated tool execution, process-level diagnostics, and failure-aware iteration loops.
+Large-language-model-based multi-agent systems (LLM-MAS) are systems in which LLM-driven components use tools, state, and sometimes multiple interacting roles to solve tasks over time. This survey extends a 2024 survey baseline with 2025--2026Q1 literature and industry signals, but organizes the material in a beginner-to-advanced order: what the field is, how systems are built, how they are trained and evaluated, where they fail, and only then what research and deployment paths follow. The 2025--2026Q1 transition still centers on protocolized, observable, and governable agent runtimes, yet that engineering shift is best understood only after the conceptual, training, and evaluation foundations are clear.
 \end{abstract}
 
 \section{Introduction}
-The practical question in 2026 is not whether multi-agent systems are possible, but whether they are \emph{worth shipping}. Many systems can produce compelling traces in controlled demos, yet fail under long-horizon constraints, dynamic tools, and enterprise governance requirements. This survey therefore prioritizes evidence with migration value: reproducible benchmarks, open framework behavior, protocol-level interoperability, and failure-mode diagnostics, while preserving representative literature needed to keep the field description honest.
+LLM-MAS has become an overloaded term. Depending on the context, it can mean a tool-using assistant with explicit workflow state, a planner/executor/verifier loop, a graph runtime with multiple nodes, or a more open-ended team of model-driven roles. For beginners, the main problem is often not lack of examples but lack of structure: what counts as an agent system, what makes a system truly multi-agent, how these systems are improved, and why impressive demos often fail to transfer.
+
+This survey is therefore written in a beginner-to-advanced order. It starts with concepts, system components, training, evaluation, and limitations before moving to research and deployment judgment. The practical question of 2026 is still whether such systems are worth shipping, but that is not the right first question for a newcomer.
 
 \paragraph{Scope.}
 We treat 2025 and 2026Q1 as the primary delta, while preserving representative 2023--2024 context from the original survey baseline. We de-emphasize ungrounded role-play demos, but retain social-interaction and debate lines when they contribute reusable benchmarks, datasets, realism metrics, or alignment methodology.
@@ -25,7 +27,17 @@ We treat 2025 and 2026Q1 as the primary delta, while preserving representative 2
 \paragraph{Thesis.}
 The field is converging on a systems view where the central unit of progress is no longer the agent prompt, but the end-to-end runtime stack: orchestration, state, policy enforcement, observability, evaluation, and safety controls.
 
-\section{From Agent Prompting to Agent Systems}
+\section{A Conceptual Primer}
+\subsection{What counts as an agentic system?}
+An agentic system is an LLM-centered system that performs multi-step task execution with explicit interaction with tools, memory, or external state. A multi-agent system is a stricter case in which multiple roles, models, or coordinated units participate in the overall trajectory.
+
+\subsection{Core building blocks}
+Across most systems, the recurring components are: an orchestrator or runtime, a tool interface layer, explicit task state, optional long-term knowledge retrieval, and some form of checking or review path. Many disagreements in the literature are therefore not about whether these pieces exist, but where each responsibility should sit.
+
+\subsection{Why more agents is not automatically better}
+Multi-agent design helps when decomposition, verification, or parallelism introduces real structure. It hurts when it only multiplies messaging overhead, hides state drift, or creates false confidence through correlated verifiers.
+
+\section{Why the Field Shifted in 2025--2026Q1}
 \subsection{Why the center of gravity moved}
 Three forces explain the shift:
 \begin{enumerate}[leftmargin=1.2em]
@@ -108,11 +120,12 @@ For engineering teams, post-train quality is inseparable from evaluation quality
 \subsection{Why static scores are insufficient}
 Outcome-only metrics obscure process brittleness. Two systems with similar success rate can differ dramatically in rollback frequency, unsafe tool calls, and cost variance.
 
-\subsection{Three-layer evaluation model}
+\subsection{Four-layer evaluation model}
 \begin{enumerate}[leftmargin=1.2em]
   \item outcome layer: success, cost, latency,
   \item process layer: failure taxonomy, tool misuse, retry cascades,
-  \item safety layer: policy violations, injection success rate, leakage risk.
+  \item safety layer: policy violations, injection success rate, leakage risk,
+  \item behavior-realism layer: role consistency, convergence quality, and interaction dynamics for debate or social tasks.
 \end{enumerate}
 
 \subsection{SWE benchmark ecosystem}
@@ -148,7 +161,10 @@ Ticketing, compliance drafting, and multi-system operations show value when poli
 \subsection{Research automation}
 Literature triage, experiment planning, and reproducibility checks are promising but require strong citation integrity and version control discipline.
 
-\section{When Multi-Agent Beats Single-Agent (and When It Does Not)}
+\subsection{Collaborative QA and social-interaction tasks}
+Not all meaningful MAS applications reduce to software engineering or enterprise workflow automation. Collaborative question answering, deliberation, and social-interaction settings remain useful because they test coordination quality, realism, and role consistency under conditions that coding benchmarks do not capture.
+
+\section{Limits and Decision Boundary}
 \subsection{Favorable conditions}
 Multi-agent designs are justified when:
 \begin{itemize}[leftmargin=1.2em]
@@ -167,7 +183,7 @@ Multi-agent is often counterproductive when:
   \item team maturity is insufficient for policy + eval operations.
 \end{itemize}
 
-\section{Minimum Viable Stack for Shipping Teams}
+\section{Builder Path: Minimum Viable Stack for Shipping Teams}
 \begin{enumerate}[leftmargin=1.2em]
   \item workflow orchestrator with typed state,
   \item policy-mediated tool gateway,
@@ -176,7 +192,8 @@ Multi-agent is often counterproductive when:
   \item safety red-team and deployment gate.
 \end{enumerate}
 
-\section{Open Problems (2026--2028)}
+\section{Research Path: Open Problems (2026Q1--Q4)}
+\noindent The questions below are framed as the most important research watchpoints for the remainder of 2026, rather than a multi-year horizon.
 \begin{itemize}[leftmargin=1.2em]
   \item durable semantic interoperability across vendor runtimes,
   \item standard protocol-security baselines for connector ecosystems,

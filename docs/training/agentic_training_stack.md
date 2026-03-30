@@ -1,5 +1,14 @@
 # Training Stack for Agentic/Multi-Agentic Systems
 
+## What This Topic Is
+
+Training in this repo means both model-centric improvement and data/environment choices that shape agent behavior.
+
+## Common Beginner Confusion
+
+- Not every agent improvement comes from training; many gains come from better runtime design and evaluation.
+- Debate or self-play traces are not automatically useful unless they correspond to a meaningful objective.
+
 ## Pre-train
 - Sets priors for tool-use behavior, long-context robustness, and reasoning/coding ceilings.
 

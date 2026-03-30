@@ -1,5 +1,14 @@
 # Architecture Patterns
 
+## What This Topic Is
+
+Architecture asks how an agentic system is decomposed into roles, steps, state transitions, and verification paths.
+
+## Common Beginner Confusion
+
+- A multi-agent architecture is not automatically better than a single-agent workflow.
+- A list of personas in a prompt is not the same thing as an orchestrated system.
+
 ## Scope Note
 
 This page summarizes deployable architectural patterns, but it should be read together with the broader coordination and evaluation materials. Architecture does not reduce the field to enterprise workflow DAGs alone.

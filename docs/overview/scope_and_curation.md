@@ -1,5 +1,7 @@
 # Scope and Curation Alignment
 
+This is a maintainer and advanced-reader note. It explains what belongs in the repo; it is not the best first page for beginners.
+
 ## What This Repo Is
 
 This repository extends the original 2024 LLM-MAS survey companion with a structured 2025–2026Q1 delta. It is intentionally broader than a production-only reading list.

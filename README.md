@@ -1,15 +1,47 @@
 # LLM-based Multi-Agent Systems (LLM-MAS) Knowledge Base (2024 Baseline + 2025–2026 Q1 Delta)
 
-> A layered survey companion and engineering knowledge base that extends the original 2024 repo with 2025–2026 early literature, benchmarks, protocols, and industry signals.
+> A beginner-first knowledge base for understanding what LLM-MAS is, how it is built, trained, evaluated, and where it fails before diving into research or production.
 
-## Project Positioning
+## What This Repo Is
 
-This repository should be read as a **layered knowledge base built on top of the original 2024 survey materials**, not as a production-only shortlist. It is designed to answer four practical questions:
+This repository extends the original 2024 LLM-MAS survey companion with a structured 2025–2026Q1 delta. It is designed for **cross-disciplinary beginners** first and advanced readers second:
 
-1. What changed in LLM-MAS during 2025–2026Q1?
-2. Which papers, benchmarks, datasets, frameworks, and product signals define those changes?
-3. Which lines are directly deployment-relevant, and which still matter mainly as diagnostic or scope-setting evidence?
-4. How should a team separate evidence strength (`tier`) from inclusion scope?
+- If you are new to LLM agents or multi-agent systems, this repo should tell you what the field is and how its pieces fit together.
+- If you are research-oriented, it should point you to the main literature lines, benchmarks, and open problems.
+- If you are builder-oriented, it should show how those ideas map to protocols, runtimes, evaluation, and deployment.
+
+The intended beginner sequence is:
+
+1. What is LLM-MAS?
+2. How are these systems built?
+3. How are they trained or improved?
+4. How are they evaluated?
+5. What are their limitations and failure modes?
+6. Given that foundation, what are the research and production paths?
+
+## Start Here
+
+1. `docs/overview/beginner_primer.md` — Shared primer: what the field is, how it works, how it is trained and evaluated, and where it fails.
+2. `docs/architecture/architecture_patterns.md` — Core system patterns.
+3. `docs/memory/memory_state_design.md` and `docs/coordination/coordination_failures.md` — State, handoffs, and coordination logic.
+4. `docs/training/agentic_training_stack.md` and `docs/evaluation/eval_playbook.md` — Training and evaluation foundations.
+5. `docs/safety/security_threat_model.md` and `docs/applications/high_value_apps.md` — limitations, risks, and application boundaries.
+
+## After The Primer
+
+### Research Path
+
+- `resources/papers/foundations_2023_2024.md` — minimal historical context
+- `resources/papers/2025.md` and `resources/papers/2026_q1.md` — time-ordered evidence
+- `resources/papers/{architecture,coordination,memory_state,evaluation,training,infra,safety,applications}.md` — themed paper/resource entry points
+- `docs/overview/2026_thesis.md` — advanced interpretation layer after you know the basics
+
+### Builder Path
+
+- `docs/protocols/protocol_landscape.md` — MCP / interoperability / trust boundaries
+- `docs/infra/production_checklist.md` — production-facing checklist
+- `resources/frameworks/`, `resources/protocols/`, `resources/companies/` — framework and ecosystem references
+- `docs/industry/industry_signals_2025_2026q1.md` — how the 2025–2026 shift looks in products and platforms
 
 ## Scope Guardrail
 
@@ -19,23 +51,9 @@ This repository should be read as a **layered knowledge base built on top of the
 - Include representative Tier B/C entries when they anchor an important research direction, benchmark family, or application class.
 - Do not collapse social/debate/role-play work into "noise" when it contributes benchmark, dataset, or alignment methodology.
 
-## Reading Path (Priority Order)
-
-1. `docs/overview/scope_and_curation.md` — Inclusion rules and how this repo maps back to the PDF.
-2. `docs/overview/2026_thesis.md` — High-signal judgments after scope is understood.
-3. `resources/papers/foundations_2023_2024.md` — Minimal historical context preserved from the pre-2025 baseline.
-4. `resources/papers/2025.md` and `resources/papers/2026_q1.md` — Time-ordered delta coverage.
-5. `resources/papers/{architecture,coordination,memory_state,evaluation,training,infra,safety,applications}.md` — Theme navigation.
-
-## How to Read the Field (2026Q1 Thesis)
-
-- The main axis is **system controllability**, not paper volume alone.
-- Multi-agent is **not a default win**; it works when decomposition, verification, or parallelism creates measurable gains.
-- Protocolization (MCP and adjacent directions) is becoming a watershed in tooling integration and governance.
-- Evaluation is shifting from static leaderboards to live/process diagnostics, but social-behavioral benchmarks still matter for non-SWE MAS tasks.
-
 ## Topic Navigation
 
+- Beginner primer: `docs/overview/beginner_primer.md`
 - Scope / curation: `docs/overview/scope_and_curation.md`
 - Architecture: `docs/architecture/architecture_patterns.md`
 - Coordination: `docs/coordination/coordination_failures.md`
@@ -55,18 +73,29 @@ This repository should be read as a **layered knowledge base built on top of the
 - Protocol/framework/company layers: `resources/protocols/`, `resources/frameworks/`, `resources/companies/`
 - Machine-readable metadata: `data/bibliography.json`, `data/bibliography.csv`, `data/timeline.csv`
 
+## Tier Note
+
+`tier` describes **evidence strength**, not whether a topic is educationally important.
+
+- `Tier A`: strong primary-source evidence or highly reusable anchor artifact
+- `Tier B`: representative study, benchmark, or product signal that anchors a line of work
+- `Tier C`: weak-signal item kept only to avoid a topic blind spot
+
+Beginners should not read `Tier B` as "less worth learning".
+
 ## Repository Structure
 
 ```text
-/docs        Judgment-oriented docs and scope guardrails
+/docs        Primer, topic explanations, and advanced interpretation
 /resources   Evidence-oriented entries across papers, benchmarks, frameworks, and signals
 /data        Script-maintained structured metadata
-/survey      Survey draft aligned with the layered scope
+/survey      Survey draft aligned with the beginner-to-advanced structure
 /scripts     Data transformation scripts
 ```
 
 ## Maintenance Principles
 
+- Keep the first impression beginner-facing and concept-first.
 - `tier` records evidence strength; it is not a hard inclusion gate.
 - Every entry must answer: **why it matters**.
 - Prefer canonical paper/project URLs over search result pages.

@@ -1,5 +1,14 @@
 # Evaluation Playbook
 
+## What This Topic Is
+
+Evaluation asks not only whether a system succeeded, but how it succeeded, how reliably it failed, and whether its behavior is safe and interpretable.
+
+## Common Beginner Confusion
+
+- A single leaderboard score is not enough to understand an agent system.
+- Process failures often matter more than final-answer quality when systems interact with tools or other agents.
+
 ## Four-Layer Evaluation
 1. Outcome metrics: success rate, cost, latency.
 2. Process diagnostics: failure classes, tool misuse rate, rollback rate.
